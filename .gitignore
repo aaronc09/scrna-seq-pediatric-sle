@@ -1,0 +1,47 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Raw source data and large processed single-cell matrices
+GSE135779_RAW/
+adult_individual_h5ad/
+child_individual_h5ad/
+*.h5ad
+*.loom
+
+# Display-only notebook exports (final outputs are retained under Results/)
+Notebook_Outputs/
+
+# Reproducible intermediate analysis outputs. Keep the compact primary,
+# sensitivity, QC, provenance, and manuscript CSV outputs under Results/.
+Results/*_liana/
+Results/*_comparison/
+Results/severity_analysis/*_per_patient_scores.csv
+
+# Current table renderings and their machine-readable CSV sources are retained.
+
+# Editor, operating-system, and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.bak
+*.log
+~$*
+
+# Local analysis caches and optional submission exports
+_local_submission/
+
+Journal_Submission/
+manuscript_draft.txt
+MANUSCRIPT_DRAFT.txt

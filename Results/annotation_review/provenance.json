@@ -1,0 +1,52 @@
+{
+  "script_sha256": "01a344f1b8fae855630ae17e6ab6fc663c3be22b7b8bac25865b6951c72899c1",
+  "panels": {
+    "T": [
+      "CD3D",
+      "CD3E",
+      "TRAC"
+    ],
+    "CD4_naive_memory": [
+      "CD4",
+      "IL7R",
+      "CCR7",
+      "TCF7",
+      "LEF1"
+    ],
+    "CD8": [
+      "CD8A",
+      "CD8B"
+    ],
+    "cytotoxic": [
+      "NKG7",
+      "CCL5",
+      "GZMK",
+      "PRF1",
+      "GNLY"
+    ],
+    "B": [
+      "MS4A1",
+      "CD79A",
+      "CD79B"
+    ],
+    "myeloid": [
+      "LYZ",
+      "LST1",
+      "FCN1",
+      "S100A8",
+      "S100A9"
+    ],
+    "platelet": [
+      "PPBP",
+      "PF4"
+    ],
+    "erythroid": [
+      "HBB",
+      "HBA1",
+      "HBA2"
+    ]
+  },
+  "purpose": "Outcome-independent diagnostic review; flags are not exclusion rules.",
+  "communication_outcomes_used": false,
+  "source_objects_modified": false
+}

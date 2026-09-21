@@ -1,0 +1,17 @@
+{
+  "source_url": "https://raw.githubusercontent.com/ZJUFanLab/CellTalkDB/master/database/human_lr_pair.rds",
+  "sha256": "045be4a0028b9adc886d5bb94da9c4c247758ec773c7e1df0c3ae2b70508d7af",
+  "entries": [
+    {
+      "pair": "ARF6_SMAP1",
+      "CellTalkDB_evidence_PMID": "15659652",
+      "evidence_scope": "ARF6 GTPase regulation and clathrin-dependent intracellular endocytosis; does not establish an extracellular ligand-receptor interaction."
+    },
+    {
+      "pair": "GNAI2_S1PR4",
+      "CellTalkDB_evidence_PMID": "32196115",
+      "evidence_scope": "SingleCellSignalR methods/resource paper; citation alone does not establish a primary experimental extracellular interaction."
+    }
+  ],
+  "sensitivity_resource": "Both pairs absent from LIANA 1.8.1 bundled CellPhoneDB resource."
+}

@@ -1,0 +1,5 @@
+group,n_donors,age_median,age_q1,age_q3,female_n,male_n,sledai_available_n,sledai_median,sledai_q1,sledai_q3,batches
+cSLE,33,16.0,15.0,17.0,30,3,31,4.0,2.0,6.0,B1:8; B2:3; B3:6; B4:6; B5:6; B6:4
+aSLE,7,37.0,31.5,52.5,7,0,7,4.0,2.0,10.0,B1:4; B2:3
+cHD,11,13.0,8.0,15.0,10,1,0,,,,B2:1; B3:2; B4:2; B5:2; B6:4
+aHD,5,43.0,39.0,46.0,5,0,0,,,,B1:2; B2:3

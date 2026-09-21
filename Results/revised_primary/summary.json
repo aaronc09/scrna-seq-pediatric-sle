@@ -1,0 +1,16 @@
+{
+  "retained_cells": 298610,
+  "tested": 2374,
+  "fdr05": 171,
+  "fdr10": 239,
+  "positive": 37,
+  "negative": 134,
+  "female_tested": 2373,
+  "female_fdr05": 145,
+  "female_fdr10": 220,
+  "female_r": 0.9948387202196363,
+  "female_overlap": 141,
+  "min_donors": 28,
+  "max_donors": 56,
+  "tests_fewer_than_56": 1187
+}

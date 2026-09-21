@@ -1,0 +1,16 @@
+cluster,cell_type
+0,Ribosomal/Low-quality
+1,Classical Monocytes
+2,CD4 T Cells
+3,NK Cells
+4,Ribosomal/Low-quality
+5,Non-classical Monocytes
+6,NK Cells
+7,CD8 T Cells
+8,B Cells
+9,RBCs
+10,pDCs
+11,Platelets
+12,Plasma Cells
+13,CD8 T Cells
+14,Classical Monocytes

@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-09-21T02:13:31.367487+00:00",
+  "scripts_sha256": {
+    "15_SUMMARIZE_ANNOTATION_RESOURCE_SENSITIVITY.py": "5b43100b05e30ae04301f63020d54ba4c734e60cb87a68bd66f85f3e81537f11",
+    "14_ANNOTATION_RESOURCE_SENSITIVITY.py": "63887259e50c3169fa214fce7cd2c484a6474b1a6f8b1f06f169ef71abb44fc0"
+  },
+  "input_cell_count": 348274,
+  "donors": 56,
+  "statistical_model": "Four-group OLS interaction; HC3; normal Wald CI/p values; BH by scenario",
+  "original_results_modified": false
+}

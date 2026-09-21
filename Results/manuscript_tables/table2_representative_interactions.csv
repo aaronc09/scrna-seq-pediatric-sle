@@ -1,0 +1,8 @@
+Source to target,Ligand-receptor,Coefficient,95% CI,FDR,Pediatric healthy to SLE,Adult healthy to SLE,Plain-language pattern
+Classical Monocytes to NK Cells,TIMP2-ITGB1,0.312,0.180 to 0.444,0.00100,0.278 to 0.350,0.390 to 0.150,Increased in children but decreased in adults
+CD4 T Cells to NK Cells,CD48-CD244,0.403,0.232 to 0.574,0.00100,0.239 to 0.424,0.552 to 0.334,Increased in children but decreased in adults
+Non-classical Monocytes to CD4 T Cells,SELPLG-ITGB2,0.352,0.192 to 0.513,0.00167,0.065 to 0.263,0.350 to 0.195,Increased in children but decreased in adults
+Classical Monocytes to NK Cells,TGFB1-ITGB1,-0.455,-0.656 to -0.254,0.00119,0.376 to 0.176,0.103 to 0.359,Decreased in children but increased in adults
+Non-classical Monocytes to CD4 T Cells,CD48-CD2,-0.322,-0.431 to -0.213,0.00001,0.666 to 0.441,0.587 to 0.684,Decreased in children but increased in adults
+B Cells to Non-classical Monocytes,CD52-SIGLEC10,-0.279,-0.394 to -0.163,0.00100,0.911 to 0.675,0.827 to 0.870,Decreased in children but increased in adults
+CD8 T Cells to Non-classical Monocytes,CD52-SIGLEC10,-0.285,-0.410 to -0.161,0.00102,0.840 to 0.623,0.722 to 0.790,Decreased in children but increased in adults

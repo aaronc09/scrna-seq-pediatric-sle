@@ -1,0 +1,24 @@
+{
+  "model_name": "Immune_All_Low.pkl",
+  "model_sha256": "290874d35dac039d4c9218c343fde4aac1077709b72a331ce7266f6828c36502",
+  "majority_voting": false,
+  "threshold": 0.5,
+  "helper_labels": [
+    "Follicular helper T cells",
+    "Memory CD4+ cytotoxic T cells",
+    "Regulatory T cells",
+    "Tcm/Naive helper T cells",
+    "Tem/Effector helper T cells",
+    "Tem/Effector helper T cells PD1+",
+    "Treg(diff)",
+    "Type 1 helper T cells",
+    "Type 17 helper T cells"
+  ],
+  "cytotoxic_labels": [
+    "CD8a/b(entry)",
+    "Tcm/Naive cytotoxic T cells",
+    "Tem/Temra cytotoxic T cells",
+    "Tem/Trm cytotoxic T cells",
+    "Trm cytotoxic T cells"
+  ]
+}

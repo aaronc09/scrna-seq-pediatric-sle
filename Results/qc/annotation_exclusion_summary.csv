@@ -1,0 +1,3 @@
+cohort,donors,cells_before_annotation,cells_retained,cells_excluded,excluded_fraction
+adult,12,75145,47406,27739,0.369139663317586
+child,44,273129,157290,115839,0.42411827378271805

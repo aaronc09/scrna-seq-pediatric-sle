@@ -1,0 +1,13 @@
+scenario,interaction_id,coefficient_difference,p_value_difference
+primary,Non-classical Monocytes|CD4 T Cells|CD48|CD2,1.1102230246251565e-16,4.632211430296955e-23
+primary,CD8 T Cells|Non-classical Monocytes|IL16|CD4,2.220446049250313e-16,8.946785505373547e-21
+primary,CD8 T Cells|Classical Monocytes|IL16|CD4,1.6653345369377348e-16,1.1604351377383915e-19
+primary,NK Cells|Non-classical Monocytes|HLA-B|LILRB2,1.3877787807814457e-16,3.89011739487799e-16
+primary,CD4 T Cells|NK Cells|CD48|CD2,1.6653345369377348e-16,1.734723475976807e-17
+primary,B Cells|Classical Monocytes|CIRBP|TREM1,2.7755575615628914e-17,7.37257477290143e-18
+female,Non-classical Monocytes|CD4 T Cells|CD48|CD2,0.0,0.0
+female,Non-classical Monocytes|NK Cells|CD48|CD2,5.551115123125783e-17,9.634999775017666e-21
+female,NK Cells|CD8 T Cells|HLA-B|CD8B,8.326672684688674e-17,1.215492279309921e-18
+female,CD8 T Cells|Non-classical Monocytes|ICAM3|ITGAL,1.6653345369377348e-16,0.0
+female,CD4 T Cells|Non-classical Monocytes|CALR|LRP1,5.551115123125783e-17,8.673617379884035e-18
+female,pDCs|CD8 T Cells|HLA-E|CD8B,5.551115123125783e-17,0.0

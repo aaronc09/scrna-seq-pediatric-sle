@@ -1,0 +1,40 @@
+{
+  "child": {
+    "source_h5ad": "child_individual_h5ad/adata_child_processed_leiden08.h5ad",
+    "source_bytes": 7535039742,
+    "source_mtime_utc": "2026-08-19T00:35:06.482693+00:00",
+    "marker_source": "Notebook_Outputs/01B_GSE135779_CHILD_CELLTYPE_LABELLING/marker_genes_all_clusters.csv",
+    "marker_sha256": "5c934c23606b28d0ba28d14ec44923c80739212a36f9d137d2532e3a551c8fee",
+    "cells_before_annotation": 273129,
+    "cells_excluded": 115839,
+    "cells_retained": 157290,
+    "donors": 44,
+    "all_donor_counts_match": true,
+    "all_retained_donor_celltype_counts_match": true,
+    "all_donor_exclusion_counts_match": true,
+    "marker_gene_universe_matches": true,
+    "max_retained_marker_mean_difference": 3.6697198169122203e-07,
+    "max_retained_marker_detection_difference": 1.1102230246251565e-16,
+    "biological_exclusion_validity": "not established by count reconciliation"
+  },
+  "adult": {
+    "source_h5ad": "adult_individual_h5ad/adata_adult_processed_selected_leiden.h5ad",
+    "source_bytes": 2404126977,
+    "source_mtime_utc": "2026-08-19T01:03:39.527940+00:00",
+    "marker_source": "Notebook_Outputs/01E_GSE135779_ADULT_CELLTYPE_LABELLING/marker_genes_all_clusters.csv",
+    "marker_sha256": "4e937937dadce829950013d43ebefc7d04fbd4c02837fb18165462907fad2a59",
+    "cells_before_annotation": 75145,
+    "cells_excluded": 27739,
+    "cells_retained": 47406,
+    "donors": 12,
+    "all_donor_counts_match": true,
+    "all_retained_donor_celltype_counts_match": true,
+    "all_donor_exclusion_counts_match": true,
+    "marker_gene_universe_matches": true,
+    "max_retained_marker_mean_difference": 3.797589194221018e-07,
+    "max_retained_marker_detection_difference": 1.1102230246251565e-16,
+    "biological_exclusion_validity": "not established by count reconciliation"
+  },
+  "audit_utc": "2026-09-20T22:35:41.781103+00:00",
+  "source_path_base": "Paths are relative to the external archive root; source matrices are not bundled."
+}

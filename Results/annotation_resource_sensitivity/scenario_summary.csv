@@ -1,0 +1,5 @@
+scenario,tested,fdr05,fdr10,positive_fdr05,negative_fdr05,shared_tests,coefficient_pearson_r,direction_agreement_shared,original_significant_testable,original_significant_still_fdr05,original_significant_direction_reversals,nonclassical_target_fdr05,min_donors,max_donors
+baseline,2527,123,195,30,93,2527,1.0,1.0,123,123,0,54,28,56
+annotation,2374,171,239,37,134,2371,0.9100088205355724,0.906790383804302,119,104,2,57,28,56
+resource,531,36,56,5,31,342,0.8598370645778002,0.8245614035087719,14,10,0,15,33,56
+combined,514,29,51,3,26,331,0.7751977800623996,0.770392749244713,14,9,0,15,36,56

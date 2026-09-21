@@ -1,0 +1,372 @@
+{
+  "01A_GSE135779_CHILD_PREPROCESSING.json": {
+    "notebook": "01A_GSE135779_CHILD_PREPROCESSING",
+    "run_started_utc": "2026-08-18T21:12:51.465374+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "01B_GSE135779_CHILD_CELLTYPE_LABELLING.json": {
+    "notebook": "01B_GSE135779_CHILD_CELLTYPE_LABELLING",
+    "run_started_utc": "2026-08-19T23:57:42.484979+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "01C_GSE135779_CHILD_SPLITTING.json": {
+    "notebook": "01C_GSE135779_CHILD_SPLITTING",
+    "run_started_utc": "2026-08-20T00:09:45.767814+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "01D_GSE135779_ADULT_PREPROCESSING.json": {
+    "notebook": "01D_GSE135779_ADULT_PREPROCESSING",
+    "run_started_utc": "2026-08-19T00:50:07.110653+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "01E_GSE135779_ADULT_CELLTYPE_LABELLING.json": {
+    "notebook": "01E_GSE135779_ADULT_CELLTYPE_LABELLING",
+    "run_started_utc": "2026-08-20T00:11:06.446045+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "01F_GSE135779_ADULT_SPLITTING.json": {
+    "notebook": "01F_GSE135779_ADULT_SPLITTING",
+    "run_started_utc": "2026-08-20T00:14:17.351787+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "02A_GSE135779_CHILD_HEALTHY_LIANA.json": {
+    "notebook": "02A_GSE135779_CHILD_HEALTHY_LIANA",
+    "run_started_utc": "2026-08-20T00:14:35.974428+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "02B_GSE135779_CHILD_SLE_LIANA.json": {
+    "notebook": "02B_GSE135779_CHILD_SLE_LIANA",
+    "run_started_utc": "2026-08-20T00:17:21.356458+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "02C_GSE135779_ADULT_HEALTHY_LIANA.json": {
+    "notebook": "02C_GSE135779_ADULT_HEALTHY_LIANA",
+    "run_started_utc": "2026-08-20T00:25:23.580639+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "02D_GSE135779_ADULT_SLE_LIANA.json": {
+    "notebook": "02D_GSE135779_ADULT_SLE_LIANA",
+    "run_started_utc": "2026-08-20T00:27:03.034269+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "03A_GSE135779_CLINICAL_METADATA.json": {
+    "notebook": "03A_GSE135779_CLINICAL_METADATA",
+    "run_started_utc": "2026-08-20T00:28:55.593326+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "03B_GSE135779_DONOR_LIANA_SCORING.json": {
+    "notebook": "03B_GSE135779_DONOR_LIANA_SCORING",
+    "run_started_utc": "2026-08-20T00:29:04.261697+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "04A_GSE135779_aH_aSLE_COMPARISON.json": {
+    "notebook": "04A_GSE135779_aH_aSLE_COMPARISON",
+    "run_started_utc": "2026-08-20T00:29:16.934082+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "04B_GSE135779_cH_cSLE_COMPARISON.json": {
+    "notebook": "04B_GSE135779_cH_cSLE_COMPARISON",
+    "run_started_utc": "2026-08-20T00:29:53.816636+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "04C_GSE135779_cH_aH_COMPARISON.json": {
+    "notebook": "04C_GSE135779_cH_aH_COMPARISON",
+    "run_started_utc": "2026-08-20T00:33:13.716552+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "04D_GSE135779_cH_aSLE_COMPARISON.json": {
+    "notebook": "04D_GSE135779_cH_aSLE_COMPARISON",
+    "run_started_utc": "2026-08-20T00:33:46.286317+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "04E_GSE135779_aH_cSLE_COMPARISON.json": {
+    "notebook": "04E_GSE135779_aH_cSLE_COMPARISON",
+    "run_started_utc": "2026-08-20T00:34:28.639188+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "04F_GSE135779_cSLE_aSLE_COMPARISON.json": {
+    "notebook": "04F_GSE135779_cSLE_aSLE_COMPARISON",
+    "run_started_utc": "2026-08-20T00:36:07.779237+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "05_GSE135779_PRIMARY_AGE_DISEASE_INTERACTION.json": {
+    "notebook": "05_GSE135779_PRIMARY_AGE_DISEASE_INTERACTION",
+    "run_started_utc": "2026-08-20T00:36:56.272218+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "06A_GSE135779_SEVERITY_CORRELATION.json": {
+    "notebook": "06A_GSE135779_SEVERITY_CORRELATION",
+    "run_started_utc": "2026-08-20T01:15:12.639798+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "06B_GSE135779_AGE_SEVERITY_INTERACTION.json": {
+    "notebook": "06B_GSE135779_AGE_SEVERITY_INTERACTION",
+    "run_started_utc": "2026-08-20T01:15:41.182544+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anndata": "0.13.2",
+      "harmonypy": "0.0.10",
+      "liana": "1.8.1",
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "scanpy": "1.12.3",
+      "scipy": "1.18.0",
+      "scrublet": "0.2.3",
+      "statsmodels": "0.14.6"
+    }
+  },
+  "08_PUBLICATION_SENSITIVITY_ANALYSES.json": {
+    "analysis": "08_PUBLICATION_SENSITIVITY_ANALYSES",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.5.2",
+      "pandas": "2.3.3",
+      "matplotlib": "3.11.1",
+      "statsmodels": "0.14.6"
+    },
+    "command": "Notebooks\\08_PUBLICATION_SENSITIVITY_ANALYSES.py",
+    "random_seed": null
+  }
+}

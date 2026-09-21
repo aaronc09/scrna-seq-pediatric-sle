@@ -1,0 +1,5 @@
+age_group,condition,n_donors,minimum_required,estimable
+adult,SLE,7,5,True
+adult,healthy,5,5,True
+pediatric,SLE,11,5,True
+pediatric,healthy,1,5,False

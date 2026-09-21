@@ -1,0 +1,13 @@
+cohort,original_label,reference_broad,cells,pass_restoration_gate
+child,CD4 T Cells,CD4 T Cells,26250,16249
+child,CD4 T Cells,CD8 T Cells,1168,457
+child,CD4 T Cells,unresolved,901,0
+child,CD8 T Cells,CD4 T Cells,418,88
+child,CD8 T Cells,CD8 T Cells,17410,10111
+child,CD8 T Cells,unresolved,7673,0
+adult,CD4 T Cells,CD4 T Cells,9066,5508
+adult,CD4 T Cells,CD8 T Cells,1015,413
+adult,CD4 T Cells,unresolved,374,0
+adult,CD8 T Cells,CD4 T Cells,287,131
+adult,CD8 T Cells,CD8 T Cells,2708,1833
+adult,CD8 T Cells,unresolved,1392,0

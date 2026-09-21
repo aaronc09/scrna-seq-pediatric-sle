@@ -1,0 +1,37 @@
+group,cell_type,total_donors,donors_with_any_cells,donors_with_at_least_10_cells,minimum_cells_among_donors_with_any
+aHD,B Cells,5,5,5,346
+aHD,CD4 T Cells,5,5,5,1551
+aHD,CD8 T Cells,5,5,5,777
+aHD,Classical Monocytes,5,5,5,408
+aHD,NK Cells,5,5,5,1038
+aHD,Non-classical Monocytes,5,5,5,187
+aHD,Plasma Cells,5,5,4,2
+aHD,pDCs,5,5,5,22
+aSLE,B Cells,7,7,7,22
+aSLE,CD4 T Cells,7,7,7,525
+aSLE,CD8 T Cells,7,7,7,229
+aSLE,Classical Monocytes,7,7,7,527
+aSLE,NK Cells,7,7,7,64
+aSLE,Non-classical Monocytes,7,7,7,205
+aSLE,Plasma Cells,7,7,4,1
+aSLE,pDCs,7,7,7,11
+cHD,B Cells,11,11,11,453
+cHD,CD4 T Cells,11,11,11,1042
+cHD,CD8 T Cells,11,11,11,953
+cHD,Classical Monocytes,11,11,11,249
+cHD,IFN-stimulated T Cells,11,11,5,6
+cHD,NK Cells,11,11,11,238
+cHD,Non-classical Monocytes,11,11,11,118
+cHD,Plasma Cells,11,11,9,6
+cHD,cDCs,11,11,11,17
+cHD,pDCs,11,11,10,8
+cSLE,B Cells,33,33,33,26
+cSLE,CD4 T Cells,33,33,33,490
+cSLE,CD8 T Cells,33,33,33,312
+cSLE,Classical Monocytes,33,33,33,229
+cSLE,IFN-stimulated T Cells,33,32,26,1
+cSLE,NK Cells,33,33,33,90
+cSLE,Non-classical Monocytes,33,33,33,64
+cSLE,Plasma Cells,33,32,17,2
+cSLE,cDCs,33,33,32,9
+cSLE,pDCs,33,33,22,1

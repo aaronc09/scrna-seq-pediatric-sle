@@ -1,0 +1,4 @@
+analysis,interactions_tested,fdr_below_0_05,fdr_below_0_10
+pediatric SLEDAI correlation,13028,125,307
+adult SLEDAI correlation,3800,3,3
+age-group-by-SLEDAI interaction,3827,10,26

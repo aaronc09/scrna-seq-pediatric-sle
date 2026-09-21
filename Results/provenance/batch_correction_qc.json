@@ -1,0 +1,17 @@
+{
+  "notebook": "batch_correction_qc",
+  "run_started_utc": "2026-08-20T01:16:14.143477+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "anndata": "0.13.2",
+    "harmonypy": "0.0.10",
+    "liana": "1.8.1",
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scanpy": "1.12.3",
+    "scipy": "1.18.0",
+    "scrublet": "0.2.3",
+    "statsmodels": "0.14.6"
+  }
+}

@@ -1,0 +1,9 @@
+cohort,cluster,assigned_cell_type,n_cells,count_status,cohort_exclusions_total,marker_table_available
+child,0,Ribosomal/Low-quality,62716,verified from pre-exclusion object,115839,True
+child,1,Ribosomal/Low-quality,50269,verified from pre-exclusion object,115839,True
+child,9,RBCs,1472,verified from pre-exclusion object,115839,True
+child,10,Platelets,1382,verified from pre-exclusion object,115839,True
+adult,0,Ribosomal/Low-quality,19692,verified from pre-exclusion object,27739,True
+adult,4,Ribosomal/Low-quality,6657,verified from pre-exclusion object,27739,True
+adult,9,RBCs,1093,verified from pre-exclusion object,27739,True
+adult,11,Platelets,297,verified from pre-exclusion object,27739,True

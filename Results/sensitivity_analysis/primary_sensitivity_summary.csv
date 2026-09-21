@@ -1,0 +1,3 @@
+analysis,interactions_tested,fdr_below_0_05,fdr_below_0_10,shared_coefficients_pearson_r,primary_fdr05_retained_in_female_only
+primary_all_donors,2527,123,195,,
+female_only,2526,95,168,0.9942877830181445,93.0

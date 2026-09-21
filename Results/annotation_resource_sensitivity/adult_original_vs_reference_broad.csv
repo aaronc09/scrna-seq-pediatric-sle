@@ -1,0 +1,12 @@
+original_label,CD4 T Cells,CD8 T Cells,unresolved
+B Cells,30,12,3084
+CD4 T Cells,9066,1015,374
+CD8 T Cells,287,2708,1392
+Classical Monocytes,15,12,11519
+NK Cells,138,5248,6980
+Non-classical Monocytes,0,0,4847
+Plasma Cells,2,0,220
+Platelets,55,31,211
+RBCs,55,37,1001
+Ribosomal/Low-quality,20299,5883,167
+pDCs,7,6,444

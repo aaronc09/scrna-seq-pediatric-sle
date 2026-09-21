@@ -1,0 +1,10 @@
+{
+  "script_sha256": "36ca8dbfd54e37c694c7dc21220f6c7cbd8b79647b4ef4570a1dff21df7d1c60",
+  "annotation_source": "script 14 conservative restoration, reviewed by script 16",
+  "primary_resource": "LIANA 1.8.1 consensus",
+  "original_exclusions": "sensitivity comparison",
+  "retrospective_revision": true,
+  "new_inference_needed": false,
+  "explanation": "Exact reviewed label set matches completed annotation scenario; all donor scores reused, primary models refit and checked, female models newly fit.",
+  "umap": "Archived pre-exclusion cohort coordinates; no new embedding fit."
+}

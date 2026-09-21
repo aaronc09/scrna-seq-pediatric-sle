@@ -1,0 +1,475 @@
+cluster,original_label,reference_label,n_cells
+0,Ribosomal/Low-quality,Alveolar macrophages,1
+0,Ribosomal/Low-quality,B cells,25
+0,Ribosomal/Low-quality,CD16+ NK cells,4
+0,Ribosomal/Low-quality,CD16- NK cells,3
+0,Ribosomal/Low-quality,CD8a/a,35
+0,Ribosomal/Low-quality,CD8a/b(entry),6
+0,Ribosomal/Low-quality,CRTAM+ gamma-delta T cells,6
+0,Ribosomal/Low-quality,Classical monocytes,4
+0,Ribosomal/Low-quality,Cycling T cells,2
+0,Ribosomal/Low-quality,Double-negative thymocytes,2
+0,Ribosomal/Low-quality,Double-positive thymocytes,1
+0,Ribosomal/Low-quality,Early erythroid,1
+0,Ribosomal/Low-quality,Early lymphoid/T lymphoid,2
+0,Ribosomal/Low-quality,Endothelial cells,1
+0,Ribosomal/Low-quality,Epithelial cells,2
+0,Ribosomal/Low-quality,Erythrocytes,1
+0,Ribosomal/Low-quality,Follicular B cells,85
+0,Ribosomal/Low-quality,Follicular helper T cells,28
+0,Ribosomal/Low-quality,ILC,2
+0,Ribosomal/Low-quality,ILC3,1
+0,Ribosomal/Low-quality,Late erythroid,1
+0,Ribosomal/Low-quality,MAIT cells,18
+0,Ribosomal/Low-quality,Macrophages,12
+0,Ribosomal/Low-quality,Mast cells,1
+0,Ribosomal/Low-quality,Memory CD4+ cytotoxic T cells,1
+0,Ribosomal/Low-quality,Mid erythroid,1
+0,Ribosomal/Low-quality,Monocytes,1
+0,Ribosomal/Low-quality,Myelocytes,17
+0,Ribosomal/Low-quality,NK cells,10
+0,Ribosomal/Low-quality,NKT cells,4
+0,Ribosomal/Low-quality,Plasma cells,5
+0,Ribosomal/Low-quality,Proliferative germinal center B cells,1
+0,Ribosomal/Low-quality,Regulatory T cells,640
+0,Ribosomal/Low-quality,Tcm/Naive cytotoxic T cells,15748
+0,Ribosomal/Low-quality,Tcm/Naive helper T cells,45288
+0,Ribosomal/Low-quality,Tem/Effector helper T cells,179
+0,Ribosomal/Low-quality,Tem/Effector helper T cells PD1+,2
+0,Ribosomal/Low-quality,Tem/Temra cytotoxic T cells,17
+0,Ribosomal/Low-quality,Tem/Trm cytotoxic T cells,104
+0,Ribosomal/Low-quality,Transitional B cells,2
+0,Ribosomal/Low-quality,Transitional NK,2
+0,Ribosomal/Low-quality,Treg(diff),369
+0,Ribosomal/Low-quality,Trm cytotoxic T cells,65
+0,Ribosomal/Low-quality,Type 1 helper T cells,5
+0,Ribosomal/Low-quality,Type 17 helper T cells,10
+0,Ribosomal/Low-quality,pDC precursor,1
+1,Ribosomal/Low-quality,B cells,42
+1,Ribosomal/Low-quality,CD16+ NK cells,52
+1,Ribosomal/Low-quality,CD16- NK cells,36
+1,Ribosomal/Low-quality,CD8a/a,358
+1,Ribosomal/Low-quality,CD8a/b(entry),18
+1,Ribosomal/Low-quality,CMP,1
+1,Ribosomal/Low-quality,CRTAM+ gamma-delta T cells,188
+1,Ribosomal/Low-quality,Classical monocytes,7
+1,Ribosomal/Low-quality,Cycling T cells,2
+1,Ribosomal/Low-quality,Cycling monocytes,2
+1,Ribosomal/Low-quality,DC,3
+1,Ribosomal/Low-quality,DC precursor,1
+1,Ribosomal/Low-quality,Double-negative thymocytes,3
+1,Ribosomal/Low-quality,Double-positive thymocytes,2
+1,Ribosomal/Low-quality,Early erythroid,2
+1,Ribosomal/Low-quality,Early lymphoid/T lymphoid,12
+1,Ribosomal/Low-quality,Epithelial cells,6
+1,Ribosomal/Low-quality,Erythrophagocytic macrophages,1
+1,Ribosomal/Low-quality,Follicular B cells,112
+1,Ribosomal/Low-quality,Follicular helper T cells,42
+1,Ribosomal/Low-quality,Germinal center B cells,2
+1,Ribosomal/Low-quality,Granulocytes,2
+1,Ribosomal/Low-quality,ILC,3
+1,Ribosomal/Low-quality,ILC3,14
+1,Ribosomal/Low-quality,Intermediate macrophages,1
+1,Ribosomal/Low-quality,Intestinal macrophages,1
+1,Ribosomal/Low-quality,Kupffer cells,10
+1,Ribosomal/Low-quality,MAIT cells,3192
+1,Ribosomal/Low-quality,Macrophages,49
+1,Ribosomal/Low-quality,Mast cells,3
+1,Ribosomal/Low-quality,Memory B cells,1
+1,Ribosomal/Low-quality,Memory CD4+ cytotoxic T cells,2
+1,Ribosomal/Low-quality,Mid erythroid,1
+1,Ribosomal/Low-quality,Mono-mac,1
+1,Ribosomal/Low-quality,Monocytes,2
+1,Ribosomal/Low-quality,Myelocytes,23
+1,Ribosomal/Low-quality,NK cells,408
+1,Ribosomal/Low-quality,NKT cells,93
+1,Ribosomal/Low-quality,Naive B cells,1
+1,Ribosomal/Low-quality,Neutrophil-myeloid progenitor,2
+1,Ribosomal/Low-quality,Non-classical monocytes,1
+1,Ribosomal/Low-quality,Plasma cells,1
+1,Ribosomal/Low-quality,Plasmablasts,1
+1,Ribosomal/Low-quality,Pro-B cells,1
+1,Ribosomal/Low-quality,Proliferative germinal center B cells,1
+1,Ribosomal/Low-quality,Regulatory T cells,514
+1,Ribosomal/Low-quality,T(agonist),5
+1,Ribosomal/Low-quality,Tcm/Naive cytotoxic T cells,23118
+1,Ribosomal/Low-quality,Tcm/Naive helper T cells,17192
+1,Ribosomal/Low-quality,Tem/Effector helper T cells,613
+1,Ribosomal/Low-quality,Tem/Temra cytotoxic T cells,59
+1,Ribosomal/Low-quality,Tem/Trm cytotoxic T cells,2806
+1,Ribosomal/Low-quality,Transitional B cells,7
+1,Ribosomal/Low-quality,Transitional DC,1
+1,Ribosomal/Low-quality,Transitional NK,8
+1,Ribosomal/Low-quality,Treg(diff),337
+1,Ribosomal/Low-quality,Trm cytotoxic T cells,822
+1,Ribosomal/Low-quality,Type 1 helper T cells,57
+1,Ribosomal/Low-quality,Type 17 helper T cells,22
+1,Ribosomal/Low-quality,gamma-delta T cells,1
+1,Ribosomal/Low-quality,pDC precursor,1
+10,Platelets,B cells,2
+10,Platelets,CD16+ NK cells,26
+10,Platelets,CD16- NK cells,1
+10,Platelets,Classical monocytes,746
+10,Platelets,Cycling NK cells,1
+10,Platelets,Cycling T cells,1
+10,Platelets,DC2,1
+10,Platelets,Double-negative thymocytes,2
+10,Platelets,Double-positive thymocytes,6
+10,Platelets,Follicular B cells,1
+10,Platelets,HSC/MPP,2
+10,Platelets,MAIT cells,3
+10,Platelets,MEMP,6
+10,Platelets,Macrophages,71
+10,Platelets,Megakaryocytes/platelets,270
+10,Platelets,Memory B cells,1
+10,Platelets,Mono-mac,1
+10,Platelets,Monocytes,28
+10,Platelets,Myelocytes,5
+10,Platelets,NK cells,9
+10,Platelets,Non-classical monocytes,37
+10,Platelets,Regulatory T cells,9
+10,Platelets,Tcm/Naive cytotoxic T cells,28
+10,Platelets,Tcm/Naive helper T cells,89
+10,Platelets,Tem/Effector helper T cells,5
+10,Platelets,Tem/Temra cytotoxic T cells,15
+10,Platelets,Tem/Trm cytotoxic T cells,8
+10,Platelets,Trm cytotoxic T cells,6
+10,Platelets,Type 1 helper T cells,1
+10,Platelets,Type 17 helper T cells,1
+11,Plasma Cells,Age-associated B cells,1
+11,Plasma Cells,B cells,190
+11,Plasma Cells,CD16+ NK cells,5
+11,Plasma Cells,CD16- NK cells,1
+11,Plasma Cells,Classical monocytes,2
+11,Plasma Cells,Double-negative thymocytes,3
+11,Plasma Cells,Double-positive thymocytes,3
+11,Plasma Cells,ETP,3
+11,Plasma Cells,HSC/MPP,6
+11,Plasma Cells,MAIT cells,1
+11,Plasma Cells,MEMP,4
+11,Plasma Cells,Macrophages,2
+11,Plasma Cells,Megakaryocyte precursor,1
+11,Plasma Cells,Memory B cells,1
+11,Plasma Cells,Myelocytes,1
+11,Plasma Cells,NK cells,1
+11,Plasma Cells,NKT cells,1
+11,Plasma Cells,Non-classical monocytes,2
+11,Plasma Cells,Plasma cells,858
+11,Plasma Cells,Plasmablasts,269
+11,Plasma Cells,Tcm/Naive cytotoxic T cells,2
+11,Plasma Cells,Tcm/Naive helper T cells,3
+11,Plasma Cells,Tem/Effector helper T cells,1
+11,Plasma Cells,Tem/Temra cytotoxic T cells,8
+11,Plasma Cells,Treg(diff),1
+11,Plasma Cells,pDC,3
+12,IFN-stimulated T Cells,B cells,1
+12,IFN-stimulated T Cells,CD8a/a,2
+12,IFN-stimulated T Cells,Epithelial cells,1
+12,IFN-stimulated T Cells,Follicular B cells,9
+12,IFN-stimulated T Cells,Follicular helper T cells,1
+12,IFN-stimulated T Cells,MAIT cells,4
+12,IFN-stimulated T Cells,Macrophages,5
+12,IFN-stimulated T Cells,NKT cells,3
+12,IFN-stimulated T Cells,Naive B cells,1
+12,IFN-stimulated T Cells,Regulatory T cells,100
+12,IFN-stimulated T Cells,Tcm/Naive cytotoxic T cells,249
+12,IFN-stimulated T Cells,Tcm/Naive helper T cells,707
+12,IFN-stimulated T Cells,Tem/Effector helper T cells,48
+12,IFN-stimulated T Cells,Tem/Trm cytotoxic T cells,29
+12,IFN-stimulated T Cells,Treg(diff),17
+12,IFN-stimulated T Cells,Trm cytotoxic T cells,5
+13,pDCs,B cells,1
+13,pDCs,CD16+ NK cells,3
+13,pDCs,Classical monocytes,2
+13,pDCs,DC,1
+13,pDCs,Double-negative thymocytes,14
+13,pDCs,ETP,12
+13,pDCs,Early erythroid,1
+13,pDCs,HSC/MPP,32
+13,pDCs,ILC,1
+13,pDCs,ILC3,1
+13,pDCs,MEMP,17
+13,pDCs,Macrophages,17
+13,pDCs,Megakaryocyte precursor,7
+13,pDCs,NK cells,3
+13,pDCs,Naive B cells,1
+13,pDCs,Tcm/Naive cytotoxic T cells,8
+13,pDCs,Tcm/Naive helper T cells,3
+13,pDCs,Type 17 helper T cells,1
+13,pDCs,pDC,678
+2,Classical Monocytes,Age-associated B cells,3
+2,Classical Monocytes,B cells,21
+2,Classical Monocytes,CD16- NK cells,6
+2,Classical Monocytes,CD8a/b(entry),1
+2,Classical Monocytes,Classical monocytes,34552
+2,Classical Monocytes,DC,6
+2,Classical Monocytes,DC2,3
+2,Classical Monocytes,DC3,12
+2,Classical Monocytes,Double-positive thymocytes,1
+2,Classical Monocytes,Epithelial cells,1
+2,Classical Monocytes,Follicular B cells,8
+2,Classical Monocytes,ILC,1
+2,Classical Monocytes,ILC3,1
+2,Classical Monocytes,Intermediate macrophages,1
+2,Classical Monocytes,MAIT cells,2
+2,Classical Monocytes,MNP,11
+2,Classical Monocytes,Macrophages,819
+2,Classical Monocytes,Memory B cells,1
+2,Classical Monocytes,Mono-mac,5
+2,Classical Monocytes,Monocyte precursor,2
+2,Classical Monocytes,Monocytes,345
+2,Classical Monocytes,Myelocytes,572
+2,Classical Monocytes,Naive B cells,7
+2,Classical Monocytes,Non-classical monocytes,784
+2,Classical Monocytes,Plasmablasts,1
+2,Classical Monocytes,Regulatory T cells,8
+2,Classical Monocytes,Tcm/Naive cytotoxic T cells,79
+2,Classical Monocytes,Tcm/Naive helper T cells,52
+2,Classical Monocytes,Tem/Effector helper T cells,4
+2,Classical Monocytes,Tem/Temra cytotoxic T cells,3
+2,Classical Monocytes,Tem/Trm cytotoxic T cells,5
+2,Classical Monocytes,Treg(diff),3
+2,Classical Monocytes,Trm cytotoxic T cells,3
+2,Classical Monocytes,Type 1 helper T cells,2
+2,Classical Monocytes,Type 17 helper T cells,4
+3,B Cells,Age-associated B cells,956
+3,B Cells,B cells,18802
+3,B Cells,CD16+ NK cells,33
+3,B Cells,CD16- NK cells,1
+3,B Cells,CRTAM+ gamma-delta T cells,1
+3,B Cells,Classical monocytes,4
+3,B Cells,Double-positive thymocytes,2
+3,B Cells,Erythrophagocytic macrophages,1
+3,B Cells,Follicular B cells,450
+3,B Cells,Follicular helper T cells,2
+3,B Cells,ILC3,2
+3,B Cells,MAIT cells,3
+3,B Cells,Macrophages,10
+3,B Cells,Memory B cells,1311
+3,B Cells,Myelocytes,6
+3,B Cells,NK cells,6
+3,B Cells,Naive B cells,8100
+3,B Cells,Non-classical monocytes,1
+3,B Cells,Plasma cells,2
+3,B Cells,Pro-B cells,1
+3,B Cells,Proliferative germinal center B cells,1
+3,B Cells,Regulatory T cells,5
+3,B Cells,Small pre-B cells,2
+3,B Cells,T(agonist),1
+3,B Cells,Tcm/Naive cytotoxic T cells,50
+3,B Cells,Tcm/Naive helper T cells,58
+3,B Cells,Tem/Effector helper T cells,11
+3,B Cells,Tem/Temra cytotoxic T cells,22
+3,B Cells,Tem/Trm cytotoxic T cells,12
+3,B Cells,Transitional B cells,28
+3,B Cells,Treg(diff),2
+3,B Cells,Trm cytotoxic T cells,2
+3,B Cells,Type 17 helper T cells,1
+4,CD4 T Cells,Alveolar macrophages,2
+4,CD4 T Cells,B cells,29
+4,CD4 T Cells,CD16+ NK cells,11
+4,CD4 T Cells,CD16- NK cells,6
+4,CD4 T Cells,CD8a/a,45
+4,CD4 T Cells,CD8a/b(entry),7
+4,CD4 T Cells,CMP,1
+4,CD4 T Cells,CRTAM+ gamma-delta T cells,12
+4,CD4 T Cells,Classical monocytes,5
+4,CD4 T Cells,Cycling B cells,2
+4,CD4 T Cells,Cycling T cells,54
+4,CD4 T Cells,DC,1
+4,CD4 T Cells,Double-positive thymocytes,113
+4,CD4 T Cells,ELP,1
+4,CD4 T Cells,Early erythroid,1
+4,CD4 T Cells,Early lymphoid/T lymphoid,2
+4,CD4 T Cells,Endothelial cells,1
+4,CD4 T Cells,Epithelial cells,4
+4,CD4 T Cells,Erythrocytes,1
+4,CD4 T Cells,Erythrophagocytic macrophages,1
+4,CD4 T Cells,Follicular B cells,109
+4,CD4 T Cells,Follicular helper T cells,120
+4,CD4 T Cells,ILC,20
+4,CD4 T Cells,ILC precursor,1
+4,CD4 T Cells,ILC2,1
+4,CD4 T Cells,ILC3,18
+4,CD4 T Cells,Kupffer cells,4
+4,CD4 T Cells,MAIT cells,319
+4,CD4 T Cells,Macrophages,41
+4,CD4 T Cells,Mast cells,2
+4,CD4 T Cells,Memory CD4+ cytotoxic T cells,18
+4,CD4 T Cells,Myelocytes,19
+4,CD4 T Cells,NK cells,39
+4,CD4 T Cells,NKT cells,20
+4,CD4 T Cells,Neutrophils,1
+4,CD4 T Cells,Plasma cells,2
+4,CD4 T Cells,Pro-B cells,2
+4,CD4 T Cells,Proliferative germinal center B cells,1
+4,CD4 T Cells,Promyelocytes,1
+4,CD4 T Cells,Regulatory T cells,3883
+4,CD4 T Cells,T(agonist),5
+4,CD4 T Cells,Tcm/Naive cytotoxic T cells,395
+4,CD4 T Cells,Tcm/Naive helper T cells,11067
+4,CD4 T Cells,Tem/Effector helper T cells,10415
+4,CD4 T Cells,Tem/Effector helper T cells PD1+,7
+4,CD4 T Cells,Tem/Temra cytotoxic T cells,134
+4,CD4 T Cells,Tem/Trm cytotoxic T cells,479
+4,CD4 T Cells,Transitional B cells,4
+4,CD4 T Cells,Treg(diff),462
+4,CD4 T Cells,Trm cytotoxic T cells,153
+4,CD4 T Cells,Type 1 helper T cells,119
+4,CD4 T Cells,Type 17 helper T cells,159
+5,CD8 T Cells,Age-associated B cells,1
+5,CD8 T Cells,Alveolar macrophages,1
+5,CD8 T Cells,B cells,7
+5,CD8 T Cells,CD16+ NK cells,1761
+5,CD8 T Cells,CD16- NK cells,45
+5,CD8 T Cells,CD8a/a,12
+5,CD8 T Cells,CD8a/b(entry),12
+5,CD8 T Cells,CRTAM+ gamma-delta T cells,62
+5,CD8 T Cells,Classical monocytes,14
+5,CD8 T Cells,Cycling B cells,1
+5,CD8 T Cells,Cycling NK cells,2
+5,CD8 T Cells,Cycling T cells,4
+5,CD8 T Cells,DC1,1
+5,CD8 T Cells,Double-negative thymocytes,4
+5,CD8 T Cells,Double-positive thymocytes,14
+5,CD8 T Cells,Epithelial cells,19
+5,CD8 T Cells,Erythrocytes,2
+5,CD8 T Cells,Follicular B cells,70
+5,CD8 T Cells,Follicular helper T cells,5
+5,CD8 T Cells,HSC/MPP,1
+5,CD8 T Cells,ILC,2
+5,CD8 T Cells,ILC1,1
+5,CD8 T Cells,ILC2,1
+5,CD8 T Cells,ILC3,3
+5,CD8 T Cells,Intestinal macrophages,2
+5,CD8 T Cells,Kupffer cells,1
+5,CD8 T Cells,MAIT cells,841
+5,CD8 T Cells,Macrophages,60
+5,CD8 T Cells,Memory CD4+ cytotoxic T cells,3
+5,CD8 T Cells,Mono-mac,1
+5,CD8 T Cells,Monocyte precursor,1
+5,CD8 T Cells,Monocytes,1
+5,CD8 T Cells,Myelocytes,23
+5,CD8 T Cells,NK cells,2940
+5,CD8 T Cells,NKT cells,1740
+5,CD8 T Cells,Naive B cells,1
+5,CD8 T Cells,Non-classical monocytes,2
+5,CD8 T Cells,Pre-pro-B cells,1
+5,CD8 T Cells,Regulatory T cells,135
+5,CD8 T Cells,T(agonist),3
+5,CD8 T Cells,Tcm/Naive cytotoxic T cells,108
+5,CD8 T Cells,Tcm/Naive helper T cells,147
+5,CD8 T Cells,Tem/Effector helper T cells,50
+5,CD8 T Cells,Tem/Effector helper T cells PD1+,2
+5,CD8 T Cells,Tem/Temra cytotoxic T cells,10771
+5,CD8 T Cells,Tem/Trm cytotoxic T cells,5781
+5,CD8 T Cells,Transitional B cells,3
+5,CD8 T Cells,Transitional NK,25
+5,CD8 T Cells,Treg(diff),18
+5,CD8 T Cells,Trm cytotoxic T cells,738
+5,CD8 T Cells,Type 1 helper T cells,46
+5,CD8 T Cells,Type 17 helper T cells,12
+6,NK Cells,CD16+ NK cells,13670
+6,NK Cells,CD16- NK cells,668
+6,NK Cells,CD8a/a,4
+6,NK Cells,CD8a/b(entry),1
+6,NK Cells,CRTAM+ gamma-delta T cells,21
+6,NK Cells,Classical monocytes,3
+6,NK Cells,Cycling NK cells,26
+6,NK Cells,Cycling T cells,1
+6,NK Cells,Double-positive thymocytes,9
+6,NK Cells,Epithelial cells,2
+6,NK Cells,Follicular B cells,9
+6,NK Cells,Follicular helper T cells,1
+6,NK Cells,Granulocytes,2
+6,NK Cells,ILC,22
+6,NK Cells,ILC precursor,1
+6,NK Cells,ILC3,34
+6,NK Cells,Intermediate macrophages,1
+6,NK Cells,MAIT cells,8
+6,NK Cells,Macrophages,30
+6,NK Cells,Myelocytes,5
+6,NK Cells,NK cells,1241
+6,NK Cells,NKT cells,83
+6,NK Cells,Proliferative germinal center B cells,2
+6,NK Cells,Regulatory T cells,12
+6,NK Cells,Tcm/Naive cytotoxic T cells,16
+6,NK Cells,Tcm/Naive helper T cells,16
+6,NK Cells,Tem/Effector helper T cells,30
+6,NK Cells,Tem/Temra cytotoxic T cells,499
+6,NK Cells,Tem/Trm cytotoxic T cells,28
+6,NK Cells,Transitional B cells,2
+6,NK Cells,Transitional NK,47
+6,NK Cells,Treg(diff),4
+6,NK Cells,Trm cytotoxic T cells,17
+6,NK Cells,Type 1 helper T cells,3
+6,NK Cells,Type 17 helper T cells,5
+6,NK Cells,gamma-delta T cells,3
+7,Non-classical Monocytes,CD16- NK cells,1
+7,Non-classical Monocytes,Classical monocytes,5552
+7,Non-classical Monocytes,DC,1
+7,Non-classical Monocytes,DC2,9
+7,Non-classical Monocytes,DC3,9
+7,Non-classical Monocytes,MNP,4
+7,Non-classical Monocytes,Macrophages,479
+7,Non-classical Monocytes,Mono-mac,2
+7,Non-classical Monocytes,Monocytes,91
+7,Non-classical Monocytes,Myelocytes,43
+7,Non-classical Monocytes,Non-classical monocytes,8003
+7,Non-classical Monocytes,Regulatory T cells,2
+7,Non-classical Monocytes,Tcm/Naive helper T cells,4
+7,Non-classical Monocytes,Type 17 helper T cells,1
+8,cDCs,B cells,1
+8,cDCs,CD16+ NK cells,4
+8,cDCs,Classical monocytes,228
+8,cDCs,DC,193
+8,cDCs,DC precursor,4
+8,cDCs,DC1,55
+8,cDCs,DC2,669
+8,cDCs,DC3,73
+8,cDCs,ILC3,1
+8,cDCs,MNP,5
+8,cDCs,Macrophages,859
+8,cDCs,Migratory DCs,2
+8,cDCs,Monocytes,36
+8,cDCs,Myelocytes,2
+8,cDCs,Naive B cells,1
+8,cDCs,Non-classical monocytes,18
+8,cDCs,Plasmablasts,1
+8,cDCs,pDC,15
+9,RBCs,Alveolar macrophages,18
+9,RBCs,B cells,2
+9,RBCs,CD16- NK cells,1
+9,RBCs,Classical monocytes,177
+9,RBCs,DC,1
+9,RBCs,Double-negative thymocytes,3
+9,RBCs,Double-positive thymocytes,7
+9,RBCs,ETP,1
+9,RBCs,Early erythroid,4
+9,RBCs,Early lymphoid/T lymphoid,4
+9,RBCs,Epithelial cells,1
+9,RBCs,Erythrocytes,257
+9,RBCs,Follicular B cells,1
+9,RBCs,Follicular helper T cells,2
+9,RBCs,HSC/MPP,10
+9,RBCs,Late erythroid,423
+9,RBCs,MAIT cells,2
+9,RBCs,MEMP,12
+9,RBCs,Macrophages,3
+9,RBCs,Megakaryocyte precursor,4
+9,RBCs,Megakaryocytes/platelets,2
+9,RBCs,Memory B cells,9
+9,RBCs,Monocytes,2
+9,RBCs,Myelocytes,294
+9,RBCs,NK cells,12
+9,RBCs,Naive B cells,4
+9,RBCs,Non-classical monocytes,1
+9,RBCs,Plasma cells,8
+9,RBCs,Regulatory T cells,5
+9,RBCs,Tcm/Naive cytotoxic T cells,39
+9,RBCs,Tcm/Naive helper T cells,146
+9,RBCs,Tem/Effector helper T cells,5
+9,RBCs,Tem/Trm cytotoxic T cells,6
+9,RBCs,Treg(diff),3
+9,RBCs,Trm cytotoxic T cells,2
+9,RBCs,pDC,1

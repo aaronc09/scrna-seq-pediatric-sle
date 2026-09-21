@@ -1,0 +1,1009 @@
+cohort,review_group,label,metric,quantile,value
+child,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.1,591.0
+child,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.25,731.0
+child,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.5,896.0
+child,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.75,1069.0
+child,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.9,1246.0
+child,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.95,1386.0
+child,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.1,1635.0
+child,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.25,2263.0
+child,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.5,2982.0
+child,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.75,3785.0
+child,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.9,4657.0
+child,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.95,5397.0
+child,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.1,1.293545155875876
+child,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.25,1.7990495587236932
+child,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.5,2.543068088597211
+child,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.75,3.525560312263913
+child,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.9,4.667690492925234
+child,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.95,5.570157472383571
+child,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.1,0.021018746449536
+child,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.25,0.0328785506598076
+child,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.5,0.0536912751677852
+child,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.75,0.088235294117647
+child,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.9,0.1325886352598348
+child,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.95,0.1669128508124076
+child,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.1,34.582938399999996
+child,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.25,40.29948
+child,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.5,46.35149
+child,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.75,51.686893
+child,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.9,55.5990822
+child,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.95,57.6619564
+child,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.1,0.2547769632205568
+child,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.25,0.4645422196247988
+child,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.5,0.8968603179945083
+child,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.75,0.9814201431728956
+child,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.9,0.9951550220855828
+child,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.95,0.9977293532984362
+child,original_T,CD4 T Cells,n_genes_by_counts,0.1,789.0
+child,original_T,CD4 T Cells,n_genes_by_counts,0.25,940.0
+child,original_T,CD4 T Cells,n_genes_by_counts,0.5,1124.0
+child,original_T,CD4 T Cells,n_genes_by_counts,0.75,1346.0
+child,original_T,CD4 T Cells,n_genes_by_counts,0.9,1665.0
+child,original_T,CD4 T Cells,n_genes_by_counts,0.95,1984.0
+child,original_T,CD4 T Cells,total_counts,0.1,2232.8
+child,original_T,CD4 T Cells,total_counts,0.25,2894.5
+child,original_T,CD4 T Cells,total_counts,0.5,3761.0
+child,original_T,CD4 T Cells,total_counts,0.75,4840.5
+child,original_T,CD4 T Cells,total_counts,0.9,6557.4000000000015
+child,original_T,CD4 T Cells,total_counts,0.95,8217.199999999997
+child,original_T,CD4 T Cells,pct_counts_mt,0.1,1.1595294009093193
+child,original_T,CD4 T Cells,pct_counts_mt,0.25,1.6492011681841607
+child,original_T,CD4 T Cells,pct_counts_mt,0.5,2.272727272727273
+child,original_T,CD4 T Cells,pct_counts_mt,0.75,3.056231852434573
+child,original_T,CD4 T Cells,pct_counts_mt,0.9,3.989298762975469
+child,original_T,CD4 T Cells,pct_counts_mt,0.95,4.777927681741569
+child,original_T,CD4 T Cells,doublet_score,0.1,0.0259067357512953
+child,original_T,CD4 T Cells,doublet_score,0.25,0.03864728797486005
+child,original_T,CD4 T Cells,doublet_score,0.5,0.0633451957295373
+child,original_T,CD4 T Cells,doublet_score,0.75,0.1008094186902134
+child,original_T,CD4 T Cells,doublet_score,0.9,0.1470054446460979
+child,original_T,CD4 T Cells,doublet_score,0.95,0.1811846689895469
+child,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.1,29.8789282
+child,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.25,37.0759515
+child,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.5,43.016838
+child,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.75,47.697604999999996
+child,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.9,51.292739600000004
+child,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.95,53.3208267
+child,original_T,CD4 T Cells,reference_probability,0.1,0.2669937460142447
+child,original_T,CD4 T Cells,reference_probability,0.25,0.4834736972216631
+child,original_T,CD4 T Cells,reference_probability,0.5,0.7528247525437685
+child,original_T,CD4 T Cells,reference_probability,0.75,0.9216322363547504
+child,original_T,CD4 T Cells,reference_probability,0.9,0.9792606400877274
+child,original_T,CD4 T Cells,reference_probability,0.95,0.991668982923913
+child,original_T,CD8 T Cells,n_genes_by_counts,0.1,735.0
+child,original_T,CD8 T Cells,n_genes_by_counts,0.25,847.0
+child,original_T,CD8 T Cells,n_genes_by_counts,0.5,978.0
+child,original_T,CD8 T Cells,n_genes_by_counts,0.75,1142.0
+child,original_T,CD8 T Cells,n_genes_by_counts,0.9,1362.0
+child,original_T,CD8 T Cells,n_genes_by_counts,0.95,1552.0
+child,original_T,CD8 T Cells,total_counts,0.1,1865.0
+child,original_T,CD8 T Cells,total_counts,0.25,2217.0
+child,original_T,CD8 T Cells,total_counts,0.5,2631.0
+child,original_T,CD8 T Cells,total_counts,0.75,3152.0
+child,original_T,CD8 T Cells,total_counts,0.9,3899.0
+child,original_T,CD8 T Cells,total_counts,0.95,4770.0
+child,original_T,CD8 T Cells,pct_counts_mt,0.1,1.4931927975406236
+child,original_T,CD8 T Cells,pct_counts_mt,0.25,2.075226977950713
+child,original_T,CD8 T Cells,pct_counts_mt,0.5,2.942285929837797
+child,original_T,CD8 T Cells,pct_counts_mt,0.75,4.040404040404041
+child,original_T,CD8 T Cells,pct_counts_mt,0.9,5.242966751918159
+child,original_T,CD8 T Cells,pct_counts_mt,0.95,6.148208469055374
+child,original_T,CD8 T Cells,doublet_score,0.1,0.0141961887709425
+child,original_T,CD8 T Cells,doublet_score,0.25,0.021120563215019
+child,original_T,CD8 T Cells,doublet_score,0.5,0.0336950314106225
+child,original_T,CD8 T Cells,doublet_score,0.75,0.0572407045009784
+child,original_T,CD8 T Cells,doublet_score,0.9,0.1009564293304994
+child,original_T,CD8 T Cells,doublet_score,0.95,0.148036253776435
+child,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.1,22.786758
+child,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.25,26.752365
+child,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.5,31.242363
+child,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.75,35.794296
+child,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.9,39.55056
+child,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.95,41.750957
+child,original_T,CD8 T Cells,reference_probability,0.1,0.1886967055452069
+child,original_T,CD8 T Cells,reference_probability,0.25,0.361136852596341
+child,original_T,CD8 T Cells,reference_probability,0.5,0.6568961246852768
+child,original_T,CD8 T Cells,reference_probability,0.75,0.9032052618169544
+child,original_T,CD8 T Cells,reference_probability,0.9,0.9811351074905452
+child,original_T,CD8 T Cells,reference_probability,0.95,0.9939329035609392
+child,other,B Cells,n_genes_by_counts,0.1,675.0
+child,other,B Cells,n_genes_by_counts,0.25,772.0
+child,other,B Cells,n_genes_by_counts,0.5,907.0
+child,other,B Cells,n_genes_by_counts,0.75,1085.0
+child,other,B Cells,n_genes_by_counts,0.9,1320.0
+child,other,B Cells,n_genes_by_counts,0.95,1517.5999999999985
+child,other,B Cells,total_counts,0.1,1877.8000000000002
+child,other,B Cells,total_counts,0.25,2239.0
+child,other,B Cells,total_counts,0.5,2790.0
+child,other,B Cells,total_counts,0.75,3602.0
+child,other,B Cells,total_counts,0.9,4647.0
+child,other,B Cells,total_counts,0.95,5582.5999999999985
+child,other,B Cells,pct_counts_mt,0.1,1.536905753729932
+child,other,B Cells,pct_counts_mt,0.25,2.2034520749173705
+child,other,B Cells,pct_counts_mt,0.5,3.115124153498871
+child,other,B Cells,pct_counts_mt,0.75,4.207011686143573
+child,other,B Cells,pct_counts_mt,0.9,5.3805758211753405
+child,other,B Cells,pct_counts_mt,0.95,6.17612620081718
+child,other,B Cells,doublet_score,0.1,0.0089922480620155
+child,other,B Cells,doublet_score,0.25,0.0133057362507392
+child,other,B Cells,doublet_score,0.5,0.0201618433685365
+child,other,B Cells,doublet_score,0.75,0.0305113880532874
+child,other,B Cells,doublet_score,0.9,0.0505050505050505
+child,other,B Cells,doublet_score,0.95,0.075940034406488
+child,other,B Cells,ribosomal_percent_retained_genes,0.1,32.829808
+child,other,B Cells,ribosomal_percent_retained_genes,0.25,37.68046
+child,other,B Cells,ribosomal_percent_retained_genes,0.5,42.340126
+child,other,B Cells,ribosomal_percent_retained_genes,0.75,46.32546
+child,other,B Cells,ribosomal_percent_retained_genes,0.9,49.696856
+child,other,B Cells,ribosomal_percent_retained_genes,0.95,51.69915619999999
+child,other,B Cells,reference_probability,0.1,0.46809511510034874
+child,other,B Cells,reference_probability,0.25,0.7136602205511682
+child,other,B Cells,reference_probability,0.5,0.8926023021231787
+child,other,B Cells,reference_probability,0.75,0.9668536294516434
+child,other,B Cells,reference_probability,0.9,0.9899505877411999
+child,other,B Cells,reference_probability,0.95,0.9952994434419739
+child,other,Classical Monocytes,n_genes_by_counts,0.1,682.0
+child,other,Classical Monocytes,n_genes_by_counts,0.25,871.0
+child,other,Classical Monocytes,n_genes_by_counts,0.5,1135.0
+child,other,Classical Monocytes,n_genes_by_counts,0.75,1450.0
+child,other,Classical Monocytes,n_genes_by_counts,0.9,1789.0
+child,other,Classical Monocytes,n_genes_by_counts,0.95,2035.0
+child,other,Classical Monocytes,total_counts,0.1,1523.0
+child,other,Classical Monocytes,total_counts,0.25,2153.0
+child,other,Classical Monocytes,total_counts,0.5,3185.0
+child,other,Classical Monocytes,total_counts,0.75,4562.0
+child,other,Classical Monocytes,total_counts,0.9,6253.0
+child,other,Classical Monocytes,total_counts,0.95,7552.399999999994
+child,other,Classical Monocytes,pct_counts_mt,0.1,2.4835174732600462
+child,other,Classical Monocytes,pct_counts_mt,0.25,3.2935831913685405
+child,other,Classical Monocytes,pct_counts_mt,0.5,4.519774011299435
+child,other,Classical Monocytes,pct_counts_mt,0.75,6.181693989071039
+child,other,Classical Monocytes,pct_counts_mt,0.9,8.280771294795095
+child,other,Classical Monocytes,pct_counts_mt,0.95,10.023494713384045
+child,other,Classical Monocytes,doublet_score,0.1,0.0114182692307692
+child,other,Classical Monocytes,doublet_score,0.25,0.0171870524205098
+child,other,Classical Monocytes,doublet_score,0.5,0.0274572224432948
+child,other,Classical Monocytes,doublet_score,0.75,0.045079365079365
+child,other,Classical Monocytes,doublet_score,0.9,0.0725478816018572
+child,other,Classical Monocytes,doublet_score,0.95,0.0978886756238003
+child,other,Classical Monocytes,ribosomal_percent_retained_genes,0.1,16.4682118
+child,other,Classical Monocytes,ribosomal_percent_retained_genes,0.25,19.148935
+child,other,Classical Monocytes,ribosomal_percent_retained_genes,0.5,22.734499
+child,other,Classical Monocytes,ribosomal_percent_retained_genes,0.75,26.478947
+child,other,Classical Monocytes,ribosomal_percent_retained_genes,0.9,29.660772000000012
+child,other,Classical Monocytes,ribosomal_percent_retained_genes,0.95,31.677251599999998
+child,other,Classical Monocytes,reference_probability,0.1,0.7176694032379147
+child,other,Classical Monocytes,reference_probability,0.25,0.8978899842536163
+child,other,Classical Monocytes,reference_probability,0.5,0.9744545077158612
+child,other,Classical Monocytes,reference_probability,0.75,0.994286079014766
+child,other,Classical Monocytes,reference_probability,0.9,0.9986522148211303
+child,other,Classical Monocytes,reference_probability,0.95,0.9994656038091876
+child,other,IFN-stimulated T Cells,n_genes_by_counts,0.1,742.1
+child,other,IFN-stimulated T Cells,n_genes_by_counts,0.25,881.0
+child,other,IFN-stimulated T Cells,n_genes_by_counts,0.5,1056.5
+child,other,IFN-stimulated T Cells,n_genes_by_counts,0.75,1248.0
+child,other,IFN-stimulated T Cells,n_genes_by_counts,0.9,1464.0
+child,other,IFN-stimulated T Cells,n_genes_by_counts,0.95,1670.9
+child,other,IFN-stimulated T Cells,total_counts,0.1,2141.4
+child,other,IFN-stimulated T Cells,total_counts,0.25,2704.5
+child,other,IFN-stimulated T Cells,total_counts,0.5,3492.5
+child,other,IFN-stimulated T Cells,total_counts,0.75,4401.5
+child,other,IFN-stimulated T Cells,total_counts,0.9,5576.400000000001
+child,other,IFN-stimulated T Cells,total_counts,0.95,6641.4000000000015
+child,other,IFN-stimulated T Cells,pct_counts_mt,0.1,0.91181726716902
+child,other,IFN-stimulated T Cells,pct_counts_mt,0.25,1.235200557808451
+child,other,IFN-stimulated T Cells,pct_counts_mt,0.5,1.745796674342616
+child,other,IFN-stimulated T Cells,pct_counts_mt,0.75,2.426689424828103
+child,other,IFN-stimulated T Cells,pct_counts_mt,0.9,3.3088176307523085
+child,other,IFN-stimulated T Cells,pct_counts_mt,0.95,3.9335492790728885
+child,other,IFN-stimulated T Cells,doublet_score,0.1,0.0270617522190821
+child,other,IFN-stimulated T Cells,doublet_score,0.25,0.0358075345020514
+child,other,IFN-stimulated T Cells,doublet_score,0.5,0.04960715449897625
+child,other,IFN-stimulated T Cells,doublet_score,0.75,0.07489397660441513
+child,other,IFN-stimulated T Cells,doublet_score,0.9,0.10829881461052815
+child,other,IFN-stimulated T Cells,doublet_score,0.95,0.1362162162162161
+child,other,IFN-stimulated T Cells,ribosomal_percent_retained_genes,0.1,32.9715336
+child,other,IFN-stimulated T Cells,ribosomal_percent_retained_genes,0.25,37.91796425
+child,other,IFN-stimulated T Cells,ribosomal_percent_retained_genes,0.5,43.3437435
+child,other,IFN-stimulated T Cells,ribosomal_percent_retained_genes,0.75,48.47432725
+child,other,IFN-stimulated T Cells,ribosomal_percent_retained_genes,0.9,52.624501800000004
+child,other,IFN-stimulated T Cells,ribosomal_percent_retained_genes,0.95,55.172603699999996
+child,other,IFN-stimulated T Cells,reference_probability,0.1,0.41079392804139464
+child,other,IFN-stimulated T Cells,reference_probability,0.25,0.6821440563865009
+child,other,IFN-stimulated T Cells,reference_probability,0.5,0.9208856051531784
+child,other,IFN-stimulated T Cells,reference_probability,0.75,0.9837682286155482
+child,other,IFN-stimulated T Cells,reference_probability,0.9,0.9963519131874164
+child,other,IFN-stimulated T Cells,reference_probability,0.95,0.9983518748575704
+child,other,NK Cells,n_genes_by_counts,0.1,804.0
+child,other,NK Cells,n_genes_by_counts,0.25,919.0
+child,other,NK Cells,n_genes_by_counts,0.5,1058.0
+child,other,NK Cells,n_genes_by_counts,0.75,1248.0
+child,other,NK Cells,n_genes_by_counts,0.9,1526.0
+child,other,NK Cells,n_genes_by_counts,0.95,1761.0
+child,other,NK Cells,total_counts,0.1,1808.0
+child,other,NK Cells,total_counts,0.25,2121.25
+child,other,NK Cells,total_counts,0.5,2521.0
+child,other,NK Cells,total_counts,0.75,3115.0
+child,other,NK Cells,total_counts,0.9,4133.0
+child,other,NK Cells,total_counts,0.95,5064.75
+child,other,NK Cells,pct_counts_mt,0.1,1.7729748015890836
+child,other,NK Cells,pct_counts_mt,0.25,2.3356925024826003
+child,other,NK Cells,pct_counts_mt,0.5,3.096793591061626
+child,other,NK Cells,pct_counts_mt,0.75,4.018062080300142
+child,other,NK Cells,pct_counts_mt,0.9,5.0379514139182024
+child,other,NK Cells,pct_counts_mt,0.95,5.817356480744882
+child,other,NK Cells,doublet_score,0.1,0.0081583813771347
+child,other,NK Cells,doublet_score,0.25,0.0135376219960121
+child,other,NK Cells,doublet_score,0.5,0.0228083785880527
+child,other,NK Cells,doublet_score,0.75,0.0399257195914577
+child,other,NK Cells,doublet_score,0.9,0.076300578034682
+child,other,NK Cells,doublet_score,0.95,0.1083546151039766
+child,other,NK Cells,ribosomal_percent_retained_genes,0.1,16.972677
+child,other,NK Cells,ribosomal_percent_retained_genes,0.25,19.83326925
+child,other,NK Cells,ribosomal_percent_retained_genes,0.5,23.3355525
+child,other,NK Cells,ribosomal_percent_retained_genes,0.75,28.06404225
+child,other,NK Cells,ribosomal_percent_retained_genes,0.9,33.682536
+child,other,NK Cells,ribosomal_percent_retained_genes,0.95,37.02520775
+child,other,NK Cells,reference_probability,0.1,0.4368159648683825
+child,other,NK Cells,reference_probability,0.25,0.8483561517498723
+child,other,NK Cells,reference_probability,0.5,0.9944188688859824
+child,other,NK Cells,reference_probability,0.75,0.9996834482384055
+child,other,NK Cells,reference_probability,0.9,0.999969714035622
+child,other,NK Cells,reference_probability,0.95,0.9999923925421441
+child,other,Non-classical Monocytes,n_genes_by_counts,0.1,944.0
+child,other,Non-classical Monocytes,n_genes_by_counts,0.25,1230.0
+child,other,Non-classical Monocytes,n_genes_by_counts,0.5,1566.0
+child,other,Non-classical Monocytes,n_genes_by_counts,0.75,1889.0
+child,other,Non-classical Monocytes,n_genes_by_counts,0.9,2209.0
+child,other,Non-classical Monocytes,n_genes_by_counts,0.95,2449.0
+child,other,Non-classical Monocytes,total_counts,0.1,2430.0
+child,other,Non-classical Monocytes,total_counts,0.25,3580.0
+child,other,Non-classical Monocytes,total_counts,0.5,4991.0
+child,other,Non-classical Monocytes,total_counts,0.75,6515.0
+child,other,Non-classical Monocytes,total_counts,0.9,8255.0
+child,other,Non-classical Monocytes,total_counts,0.95,9606.0
+child,other,Non-classical Monocytes,pct_counts_mt,0.1,1.7009345794392523
+child,other,Non-classical Monocytes,pct_counts_mt,0.25,2.3355636914531
+child,other,Non-classical Monocytes,pct_counts_mt,0.5,3.379867744305657
+child,other,Non-classical Monocytes,pct_counts_mt,0.75,4.750593824228028
+child,other,Non-classical Monocytes,pct_counts_mt,0.9,6.269925611052073
+child,other,Non-classical Monocytes,pct_counts_mt,0.95,7.322264793529161
+child,other,Non-classical Monocytes,doublet_score,0.1,0.0138292799237005
+child,other,Non-classical Monocytes,doublet_score,0.25,0.020440881763527
+child,other,Non-classical Monocytes,doublet_score,0.5,0.0309278350515463
+child,other,Non-classical Monocytes,doublet_score,0.75,0.0479744136460554
+child,other,Non-classical Monocytes,doublet_score,0.9,0.0725478816018572
+child,other,Non-classical Monocytes,doublet_score,0.95,0.0964879852125693
+child,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.1,16.18864
+child,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.25,18.894737
+child,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.5,22.619926
+child,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.75,26.398989
+child,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.9,29.610266
+child,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.95,31.299393
+child,other,Non-classical Monocytes,reference_probability,0.1,0.7029700719152151
+child,other,Non-classical Monocytes,reference_probability,0.25,0.8979037286321347
+child,other,Non-classical Monocytes,reference_probability,0.5,0.9807064912784164
+child,other,Non-classical Monocytes,reference_probability,0.75,0.9974473982278296
+child,other,Non-classical Monocytes,reference_probability,0.9,0.999586970161758
+child,other,Non-classical Monocytes,reference_probability,0.95,0.9998689418948884
+child,other,Plasma Cells,n_genes_by_counts,0.1,1246.0
+child,other,Plasma Cells,n_genes_by_counts,0.25,1901.0
+child,other,Plasma Cells,n_genes_by_counts,0.5,2519.0
+child,other,Plasma Cells,n_genes_by_counts,0.75,3194.0
+child,other,Plasma Cells,n_genes_by_counts,0.9,4049.5999999999995
+child,other,Plasma Cells,n_genes_by_counts,0.95,4543.5999999999985
+child,other,Plasma Cells,total_counts,0.1,3546.6
+child,other,Plasma Cells,total_counts,0.25,7057.0
+child,other,Plasma Cells,total_counts,0.5,10759.0
+child,other,Plasma Cells,total_counts,0.75,16385.0
+child,other,Plasma Cells,total_counts,0.9,24065.8
+child,other,Plasma Cells,total_counts,0.95,28577.8
+child,other,Plasma Cells,pct_counts_mt,0.1,1.8463090941053721
+child,other,Plasma Cells,pct_counts_mt,0.25,2.6153157187639944
+child,other,Plasma Cells,pct_counts_mt,0.5,3.729146221786065
+child,other,Plasma Cells,pct_counts_mt,0.75,5.753884922301554
+child,other,Plasma Cells,pct_counts_mt,0.9,9.946259706961028
+child,other,Plasma Cells,pct_counts_mt,0.95,14.838673824829645
+child,other,Plasma Cells,doublet_score,0.1,0.037037037037037
+child,other,Plasma Cells,doublet_score,0.25,0.0578257517347725
+child,other,Plasma Cells,doublet_score,0.5,0.0866396761133602
+child,other,Plasma Cells,doublet_score,0.75,0.1175510204081632
+child,other,Plasma Cells,doublet_score,0.9,0.1583411875589067
+child,other,Plasma Cells,doublet_score,0.95,0.19069206357258106
+child,other,Plasma Cells,ribosomal_percent_retained_genes,0.1,15.3741334
+child,other,Plasma Cells,ribosomal_percent_retained_genes,0.25,21.126059
+child,other,Plasma Cells,ribosomal_percent_retained_genes,0.5,26.159449
+child,other,Plasma Cells,ribosomal_percent_retained_genes,0.75,30.661419
+child,other,Plasma Cells,ribosomal_percent_retained_genes,0.9,35.2031268
+child,other,Plasma Cells,ribosomal_percent_retained_genes,0.95,37.75959299999999
+child,other,Plasma Cells,reference_probability,0.1,0.20409703490589703
+child,other,Plasma Cells,reference_probability,0.25,0.4472714122536404
+child,other,Plasma Cells,reference_probability,0.5,0.7951291567208912
+child,other,Plasma Cells,reference_probability,0.75,0.949018390410839
+child,other,Plasma Cells,reference_probability,0.9,0.9895074321501626
+child,other,Plasma Cells,reference_probability,0.95,0.995282228057126
+child,other,Platelets,n_genes_by_counts,0.1,593.1
+child,other,Platelets,n_genes_by_counts,0.25,897.5
+child,other,Platelets,n_genes_by_counts,0.5,1329.5
+child,other,Platelets,n_genes_by_counts,0.75,1834.75
+child,other,Platelets,n_genes_by_counts,0.9,2370.8
+child,other,Platelets,n_genes_by_counts,0.95,2814.2000000000007
+child,other,Platelets,total_counts,0.1,1446.0
+child,other,Platelets,total_counts,0.25,2413.5
+child,other,Platelets,total_counts,0.5,3959.5
+child,other,Platelets,total_counts,0.75,6304.0
+child,other,Platelets,total_counts,0.9,9286.7
+child,other,Platelets,total_counts,0.95,11873.650000000003
+child,other,Platelets,pct_counts_mt,0.1,1.6506203187107271
+child,other,Platelets,pct_counts_mt,0.25,2.7163155408720345
+child,other,Platelets,pct_counts_mt,0.5,4.40581451547196
+child,other,Platelets,pct_counts_mt,0.75,6.197543613753877
+child,other,Platelets,pct_counts_mt,0.9,8.442883675624987
+child,other,Platelets,pct_counts_mt,0.95,10.2585734412942
+child,other,Platelets,doublet_score,0.1,0.0249957490222751
+child,other,Platelets,doublet_score,0.25,0.0394160583941605
+child,other,Platelets,doublet_score,0.5,0.0637954239569313
+child,other,Platelets,doublet_score,0.75,0.1176145775814467
+child,other,Platelets,doublet_score,0.9,0.2021807695926399
+child,other,Platelets,doublet_score,0.95,0.258368009664227
+child,other,Platelets,ribosomal_percent_retained_genes,0.1,3.64409378
+child,other,Platelets,ribosomal_percent_retained_genes,0.25,15.6024095
+child,other,Platelets,ribosomal_percent_retained_genes,0.5,22.1137895
+child,other,Platelets,ribosomal_percent_retained_genes,0.75,27.875017
+child,other,Platelets,ribosomal_percent_retained_genes,0.9,34.530007000000005
+child,other,Platelets,ribosomal_percent_retained_genes,0.95,44.78210970000001
+child,other,Platelets,reference_probability,0.1,0.129948309160167
+child,other,Platelets,reference_probability,0.25,0.4072717150705717
+child,other,Platelets,reference_probability,0.5,0.7772900052880304
+child,other,Platelets,reference_probability,0.75,0.9725826267561999
+child,other,Platelets,reference_probability,0.9,0.9964778195889145
+child,other,Platelets,reference_probability,0.95,0.9990534590122742
+child,other,RBCs,n_genes_by_counts,0.1,217.0
+child,other,RBCs,n_genes_by_counts,0.25,253.0
+child,other,RBCs,n_genes_by_counts,0.5,328.0
+child,other,RBCs,n_genes_by_counts,0.75,466.0
+child,other,RBCs,n_genes_by_counts,0.9,708.0
+child,other,RBCs,n_genes_by_counts,0.95,1078.9
+child,other,RBCs,total_counts,0.1,3214.4
+child,other,RBCs,total_counts,0.25,4135.0
+child,other,RBCs,total_counts,0.5,5668.5
+child,other,RBCs,total_counts,0.75,7942.75
+child,other,RBCs,total_counts,0.9,9943.800000000001
+child,other,RBCs,total_counts,0.95,11125.050000000001
+child,other,RBCs,pct_counts_mt,0.1,0.058166627767602445
+child,other,RBCs,pct_counts_mt,0.25,0.10354754955850162
+child,other,RBCs,pct_counts_mt,0.5,0.16542600680819514
+child,other,RBCs,pct_counts_mt,0.75,0.2666505275401149
+child,other,RBCs,pct_counts_mt,0.9,1.4711369936733816
+child,other,RBCs,pct_counts_mt,0.95,2.8751844633993886
+child,other,RBCs,doublet_score,0.1,0.0037606837606837
+child,other,RBCs,doublet_score,0.25,0.0072322351050396
+child,other,RBCs,doublet_score,0.5,0.0159601853440878
+child,other,RBCs,doublet_score,0.75,0.05455746862430945
+child,other,RBCs,doublet_score,0.9,0.087378640776699
+child,other,RBCs,doublet_score,0.95,0.1179705499089516
+child,other,RBCs,ribosomal_percent_retained_genes,0.1,4.646872
+child,other,RBCs,ribosomal_percent_retained_genes,0.25,5.81511935
+child,other,RBCs,ribosomal_percent_retained_genes,0.5,8.413282
+child,other,RBCs,ribosomal_percent_retained_genes,0.75,11.85963575
+child,other,RBCs,ribosomal_percent_retained_genes,0.9,30.558545600000002
+child,other,RBCs,ribosomal_percent_retained_genes,0.95,47.773325
+child,other,RBCs,reference_probability,0.1,0.06564308031756423
+child,other,RBCs,reference_probability,0.25,0.11034073454655685
+child,other,RBCs,reference_probability,0.5,0.2012331764100879
+child,other,RBCs,reference_probability,0.75,0.3476797336815689
+child,other,RBCs,reference_probability,0.9,0.5997335824404346
+child,other,RBCs,reference_probability,0.95,0.7978665198792392
+child,other,cDCs,n_genes_by_counts,0.1,1685.6
+child,other,cDCs,n_genes_by_counts,0.25,2018.5
+child,other,cDCs,n_genes_by_counts,0.5,2330.0
+child,other,cDCs,n_genes_by_counts,0.75,2653.0
+child,other,cDCs,n_genes_by_counts,0.9,3009.8
+child,other,cDCs,n_genes_by_counts,0.95,3228.0
+child,other,cDCs,total_counts,0.1,5688.8
+child,other,cDCs,total_counts,0.25,7627.0
+child,other,cDCs,total_counts,0.5,9604.0
+child,other,cDCs,total_counts,0.75,11820.0
+child,other,cDCs,total_counts,0.9,14387.6
+child,other,cDCs,total_counts,0.95,16176.199999999997
+child,other,cDCs,pct_counts_mt,0.1,2.1371116691473477
+child,other,cDCs,pct_counts_mt,0.25,2.6628354387512534
+child,other,cDCs,pct_counts_mt,0.5,3.292586750788644
+child,other,cDCs,pct_counts_mt,0.75,4.091171918889985
+child,other,cDCs,pct_counts_mt,0.9,5.0220393491465725
+child,other,cDCs,pct_counts_mt,0.95,5.7314770798534225
+child,other,cDCs,doublet_score,0.1,0.04750599449394627
+child,other,cDCs,doublet_score,0.25,0.0613253708954032
+child,other,cDCs,doublet_score,0.5,0.079054054054054
+child,other,cDCs,doublet_score,0.75,0.1073124406457739
+child,other,cDCs,doublet_score,0.9,0.1527041357370095
+child,other,cDCs,doublet_score,0.95,0.18935541477103596
+child,other,cDCs,ribosomal_percent_retained_genes,0.1,22.2381806
+child,other,cDCs,ribosomal_percent_retained_genes,0.25,26.304060999999997
+child,other,cDCs,ribosomal_percent_retained_genes,0.5,30.764582
+child,other,cDCs,ribosomal_percent_retained_genes,0.75,34.0667925
+child,other,cDCs,ribosomal_percent_retained_genes,0.9,36.6456674
+child,other,cDCs,ribosomal_percent_retained_genes,0.95,37.97075499999999
+child,other,cDCs,reference_probability,0.1,0.2562413620555311
+child,other,cDCs,reference_probability,0.25,0.4388932886947705
+child,other,cDCs,reference_probability,0.5,0.6904932710500121
+child,other,cDCs,reference_probability,0.75,0.8707182607004429
+child,other,cDCs,reference_probability,0.9,0.9538684181681377
+child,other,cDCs,reference_probability,0.95,0.9783578633159293
+child,other,pDCs,n_genes_by_counts,0.1,1320.8
+child,other,pDCs,n_genes_by_counts,0.25,1567.0
+child,other,pDCs,n_genes_by_counts,0.5,1780.0
+child,other,pDCs,n_genes_by_counts,0.75,2093.5
+child,other,pDCs,n_genes_by_counts,0.9,2479.2000000000007
+child,other,pDCs,n_genes_by_counts,0.95,2847.9
+child,other,pDCs,total_counts,0.1,3872.2000000000003
+child,other,pDCs,total_counts,0.25,4822.0
+child,other,pDCs,total_counts,0.5,5914.0
+child,other,pDCs,total_counts,0.75,7636.5
+child,other,pDCs,total_counts,0.9,10565.000000000002
+child,other,pDCs,total_counts,0.95,13102.999999999998
+child,other,pDCs,pct_counts_mt,0.1,1.396592011544086
+child,other,pDCs,pct_counts_mt,0.25,1.8255555169949802
+child,other,pDCs,pct_counts_mt,0.5,2.420064535054268
+child,other,pDCs,pct_counts_mt,0.75,3.095339200644667
+child,other,pDCs,pct_counts_mt,0.9,3.981718307815267
+child,other,pDCs,pct_counts_mt,0.95,4.931427043211826
+child,other,pDCs,doublet_score,0.1,0.0572407045009784
+child,other,pDCs,doublet_score,0.25,0.0676915447557649
+child,other,pDCs,doublet_score,0.5,0.0893433799784714
+child,other,pDCs,doublet_score,0.75,0.1210629921259842
+child,other,pDCs,doublet_score,0.9,0.1637010676156583
+child,other,pDCs,doublet_score,0.95,0.20672530001643918
+child,other,pDCs,ribosomal_percent_retained_genes,0.1,27.5668582
+child,other,pDCs,ribosomal_percent_retained_genes,0.25,31.085391
+child,other,pDCs,ribosomal_percent_retained_genes,0.5,35.177776
+child,other,pDCs,ribosomal_percent_retained_genes,0.75,38.944675000000004
+child,other,pDCs,ribosomal_percent_retained_genes,0.9,44.3145092
+child,other,pDCs,ribosomal_percent_retained_genes,0.95,48.3629372
+child,other,pDCs,reference_probability,0.1,0.0666988673155005
+child,other,pDCs,reference_probability,0.25,0.7110382007373623
+child,other,pDCs,reference_probability,0.5,0.9547714078793366
+child,other,pDCs,reference_probability,0.75,0.9905468167213872
+child,other,pDCs,reference_probability,0.9,0.9971327845317621
+child,other,pDCs,reference_probability,0.95,0.9986727773048464
+child,restored,CD4 T Cells,n_genes_by_counts,0.1,698.0
+child,restored,CD4 T Cells,n_genes_by_counts,0.25,818.0
+child,restored,CD4 T Cells,n_genes_by_counts,0.5,965.0
+child,restored,CD4 T Cells,n_genes_by_counts,0.75,1128.0
+child,restored,CD4 T Cells,n_genes_by_counts,0.9,1300.0
+child,restored,CD4 T Cells,n_genes_by_counts,0.95,1431.0
+child,restored,CD4 T Cells,total_counts,0.1,2193.0
+child,restored,CD4 T Cells,total_counts,0.25,2775.0
+child,restored,CD4 T Cells,total_counts,0.5,3491.0
+child,restored,CD4 T Cells,total_counts,0.75,4329.0
+child,restored,CD4 T Cells,total_counts,0.9,5346.0
+child,restored,CD4 T Cells,total_counts,0.95,6132.0
+child,restored,CD4 T Cells,pct_counts_mt,0.1,1.203113941967445
+child,restored,CD4 T Cells,pct_counts_mt,0.25,1.5852474927208025
+child,restored,CD4 T Cells,pct_counts_mt,0.5,2.101945759126313
+child,restored,CD4 T Cells,pct_counts_mt,0.75,2.810644733924009
+child,restored,CD4 T Cells,pct_counts_mt,0.9,3.5997229998262377
+child,restored,CD4 T Cells,pct_counts_mt,0.95,4.154621201142704
+child,restored,CD4 T Cells,doublet_score,0.1,0.0282563749138525
+child,restored,CD4 T Cells,doublet_score,0.25,0.0421371522996419
+child,restored,CD4 T Cells,doublet_score,0.5,0.0643856920684292
+child,restored,CD4 T Cells,doublet_score,0.75,0.0976627712854757
+child,restored,CD4 T Cells,doublet_score,0.9,0.1363636363636363
+child,restored,CD4 T Cells,doublet_score,0.95,0.1646628332462101
+child,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.1,41.3173835
+child,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.25,45.61121825
+child,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.5,49.699324
+child,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.75,53.414139
+child,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.9,56.53965
+child,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.95,58.23557675000001
+child,restored,CD4 T Cells,reference_probability,0.1,0.7533930534068726
+child,restored,CD4 T Cells,reference_probability,0.25,0.894808257298353
+child,restored,CD4 T Cells,reference_probability,0.5,0.9677737260333755
+child,restored,CD4 T Cells,reference_probability,0.75,0.9904973947628184
+child,restored,CD4 T Cells,reference_probability,0.9,0.9968460653796181
+child,restored,CD4 T Cells,reference_probability,0.95,0.9983418004389878
+child,restored,CD8 T Cells,n_genes_by_counts,0.1,804.0
+child,restored,CD8 T Cells,n_genes_by_counts,0.25,928.0
+child,restored,CD8 T Cells,n_genes_by_counts,0.5,1077.0
+child,restored,CD8 T Cells,n_genes_by_counts,0.75,1258.0
+child,restored,CD8 T Cells,n_genes_by_counts,0.9,1483.0
+child,restored,CD8 T Cells,n_genes_by_counts,0.95,1665.8499999999985
+child,restored,CD8 T Cells,total_counts,0.1,2683.0
+child,restored,CD8 T Cells,total_counts,0.25,3347.0
+child,restored,CD8 T Cells,total_counts,0.5,4150.0
+child,restored,CD8 T Cells,total_counts,0.75,5119.0
+child,restored,CD8 T Cells,total_counts,0.9,6500.0
+child,restored,CD8 T Cells,total_counts,0.95,7594.8499999999985
+child,restored,CD8 T Cells,pct_counts_mt,0.1,1.5501415746143519
+child,restored,CD8 T Cells,pct_counts_mt,0.25,2.032816080815537
+child,restored,CD8 T Cells,pct_counts_mt,0.5,2.6358809295713304
+child,restored,CD8 T Cells,pct_counts_mt,0.75,3.4281035558328137
+child,restored,CD8 T Cells,pct_counts_mt,0.9,4.295430066164025
+child,restored,CD8 T Cells,pct_counts_mt,0.95,4.863886221846922
+child,restored,CD8 T Cells,doublet_score,0.1,0.0249882131070249
+child,restored,CD8 T Cells,doublet_score,0.25,0.0368852459016393
+child,restored,CD8 T Cells,doublet_score,0.5,0.059117923052862
+child,restored,CD8 T Cells,doublet_score,0.75,0.0921861281826163
+child,restored,CD8 T Cells,doublet_score,0.9,0.134438305709024
+child,restored,CD8 T Cells,doublet_score,0.95,0.1661781681516577
+child,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.1,41.478346
+child,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.25,45.9849795
+child,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.5,50.1783675
+child,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.75,53.64947825
+child,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.9,56.5477587
+child,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.95,58.1481304
+child,restored,CD8 T Cells,reference_probability,0.1,0.7385072810715838
+child,restored,CD8 T Cells,reference_probability,0.25,0.8859121076178358
+child,restored,CD8 T Cells,reference_probability,0.5,0.9657066236528606
+child,restored,CD8 T Cells,reference_probability,0.75,0.9908236191655673
+child,restored,CD8 T Cells,reference_probability,0.9,0.9972740085637525
+child,restored,CD8 T Cells,reference_probability,0.95,0.9986616423575394
+adult,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.1,603.0
+adult,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.25,742.0
+adult,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.5,873.0
+adult,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.75,1042.0
+adult,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.9,1227.0
+adult,excluded_unrestored,Ribosomal/Low-quality,n_genes_by_counts,0.95,1352.2999999999993
+adult,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.1,1682.0
+adult,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.25,2279.0
+adult,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.5,2870.0
+adult,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.75,3640.0
+adult,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.9,4467.0
+adult,excluded_unrestored,Ribosomal/Low-quality,total_counts,0.95,5051.0
+adult,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.1,1.2800854309402077
+adult,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.25,1.6051364365971106
+adult,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.5,2.0594059405940595
+adult,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.75,2.6862555892018634
+adult,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.9,3.452280584877271
+adult,excluded_unrestored,Ribosomal/Low-quality,pct_counts_mt,0.95,4.051654690038863
+adult,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.1,0.0266272189349112
+adult,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.25,0.0404844290657439
+adult,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.5,0.0634264884568651
+adult,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.75,0.0995552514539856
+adult,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.9,0.1419878296146043
+adult,excluded_unrestored,Ribosomal/Low-quality,doublet_score,0.95,0.1737914502596883
+adult,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.1,39.842309868409046
+adult,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.25,44.10656527249684
+adult,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.5,47.742939737602846
+adult,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.75,50.668961090781764
+adult,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.9,53.164933541879556
+adult,excluded_unrestored,Ribosomal/Low-quality,ribosomal_percent_retained_genes,0.95,54.5447150552959
+adult,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.1,0.28979953173493295
+adult,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.25,0.46707061524759624
+adult,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.5,0.8734453515732943
+adult,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.75,0.9760307704488754
+adult,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.9,0.9938025507657847
+adult,excluded_unrestored,Ribosomal/Low-quality,reference_probability,0.95,0.9969765552548168
+adult,original_T,CD4 T Cells,n_genes_by_counts,0.1,816.0
+adult,original_T,CD4 T Cells,n_genes_by_counts,0.25,940.0
+adult,original_T,CD4 T Cells,n_genes_by_counts,0.5,1092.0
+adult,original_T,CD4 T Cells,n_genes_by_counts,0.75,1297.0
+adult,original_T,CD4 T Cells,n_genes_by_counts,0.9,1521.0
+adult,original_T,CD4 T Cells,n_genes_by_counts,0.95,1678.0
+adult,original_T,CD4 T Cells,total_counts,0.1,2427.0
+adult,original_T,CD4 T Cells,total_counts,0.25,2992.0
+adult,original_T,CD4 T Cells,total_counts,0.5,3718.0
+adult,original_T,CD4 T Cells,total_counts,0.75,4645.0
+adult,original_T,CD4 T Cells,total_counts,0.9,5622.0
+adult,original_T,CD4 T Cells,total_counts,0.95,6369.299999999999
+adult,original_T,CD4 T Cells,pct_counts_mt,0.1,1.4576717687856622
+adult,original_T,CD4 T Cells,pct_counts_mt,0.25,1.8588313779244952
+adult,original_T,CD4 T Cells,pct_counts_mt,0.5,2.3950553695596186
+adult,original_T,CD4 T Cells,pct_counts_mt,0.75,3.065069575911494
+adult,original_T,CD4 T Cells,pct_counts_mt,0.9,3.7973339069758065
+adult,original_T,CD4 T Cells,pct_counts_mt,0.95,4.334418673370479
+adult,original_T,CD4 T Cells,doublet_score,0.1,0.0276471694564604
+adult,original_T,CD4 T Cells,doublet_score,0.25,0.041367423154266
+adult,original_T,CD4 T Cells,doublet_score,0.5,0.0656063618290258
+adult,original_T,CD4 T Cells,doublet_score,0.75,0.1040508339952342
+adult,original_T,CD4 T Cells,doublet_score,0.9,0.15674479008685463
+adult,original_T,CD4 T Cells,doublet_score,0.95,0.1938250428816465
+adult,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.1,34.354948404446475
+adult,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.25,39.450066330870285
+adult,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.5,43.8287153652393
+adult,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.75,47.39649341052159
+adult,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.9,50.38138889428144
+adult,original_T,CD4 T Cells,ribosomal_percent_retained_genes,0.95,52.01868720481327
+adult,original_T,CD4 T Cells,reference_probability,0.1,0.26770413993351444
+adult,original_T,CD4 T Cells,reference_probability,0.25,0.47408169967064584
+adult,original_T,CD4 T Cells,reference_probability,0.5,0.7470087825993648
+adult,original_T,CD4 T Cells,reference_probability,0.75,0.9179865325341228
+adult,original_T,CD4 T Cells,reference_probability,0.9,0.9791604352685049
+adult,original_T,CD4 T Cells,reference_probability,0.95,0.9916647989087811
+adult,original_T,CD8 T Cells,n_genes_by_counts,0.1,771.0
+adult,original_T,CD8 T Cells,n_genes_by_counts,0.25,886.0
+adult,original_T,CD8 T Cells,n_genes_by_counts,0.5,1030.0
+adult,original_T,CD8 T Cells,n_genes_by_counts,0.75,1244.0
+adult,original_T,CD8 T Cells,n_genes_by_counts,0.9,1537.0
+adult,original_T,CD8 T Cells,n_genes_by_counts,0.95,1794.3999999999996
+adult,original_T,CD8 T Cells,total_counts,0.1,2080.2
+adult,original_T,CD8 T Cells,total_counts,0.25,2539.5
+adult,original_T,CD8 T Cells,total_counts,0.5,3082.0
+adult,original_T,CD8 T Cells,total_counts,0.75,3759.0
+adult,original_T,CD8 T Cells,total_counts,0.9,4784.800000000001
+adult,original_T,CD8 T Cells,total_counts,0.95,6011.7
+adult,original_T,CD8 T Cells,pct_counts_mt,0.1,1.6723289162708168
+adult,original_T,CD8 T Cells,pct_counts_mt,0.25,2.199863544358839
+adult,original_T,CD8 T Cells,pct_counts_mt,0.5,2.895238095238095
+adult,original_T,CD8 T Cells,pct_counts_mt,0.75,3.7501541940888385
+adult,original_T,CD8 T Cells,pct_counts_mt,0.9,4.663003860373036
+adult,original_T,CD8 T Cells,pct_counts_mt,0.95,5.21880219747726
+adult,original_T,CD8 T Cells,doublet_score,0.1,0.0181818181818181
+adult,original_T,CD8 T Cells,doublet_score,0.25,0.0291079812206572
+adult,original_T,CD8 T Cells,doublet_score,0.5,0.0502525923956394
+adult,original_T,CD8 T Cells,doublet_score,0.75,0.087378640776699
+adult,original_T,CD8 T Cells,doublet_score,0.9,0.1498708010335916
+adult,original_T,CD8 T Cells,doublet_score,0.95,0.1963937738432293
+adult,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.1,27.303824327433173
+adult,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.25,32.18232976292818
+adult,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.5,36.70588235294117
+adult,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.75,40.566490235308166
+adult,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.9,43.588795093110754
+adult,original_T,CD8 T Cells,ribosomal_percent_retained_genes,0.95,45.35012374615234
+adult,original_T,CD8 T Cells,reference_probability,0.1,0.27770305408758217
+adult,original_T,CD8 T Cells,reference_probability,0.25,0.5736113955254218
+adult,original_T,CD8 T Cells,reference_probability,0.5,0.895006634279449
+adult,original_T,CD8 T Cells,reference_probability,0.75,0.9850353982280722
+adult,original_T,CD8 T Cells,reference_probability,0.9,0.997231115075904
+adult,original_T,CD8 T Cells,reference_probability,0.95,0.998996645123307
+adult,other,B Cells,n_genes_by_counts,0.1,674.0
+adult,other,B Cells,n_genes_by_counts,0.25,764.25
+adult,other,B Cells,n_genes_by_counts,0.5,896.0
+adult,other,B Cells,n_genes_by_counts,0.75,1095.0
+adult,other,B Cells,n_genes_by_counts,0.9,1335.5
+adult,other,B Cells,n_genes_by_counts,0.95,1542.25
+adult,other,B Cells,total_counts,0.1,1927.5
+adult,other,B Cells,total_counts,0.25,2337.0
+adult,other,B Cells,total_counts,0.5,2928.5
+adult,other,B Cells,total_counts,0.75,3874.0
+adult,other,B Cells,total_counts,0.9,4919.5
+adult,other,B Cells,total_counts,0.95,5684.5
+adult,other,B Cells,pct_counts_mt,0.1,2.1135220743006817
+adult,other,B Cells,pct_counts_mt,0.25,2.5975067267562455
+adult,other,B Cells,pct_counts_mt,0.5,3.244115460376158
+adult,other,B Cells,pct_counts_mt,0.75,3.9553286621352384
+adult,other,B Cells,pct_counts_mt,0.9,4.740751145681527
+adult,other,B Cells,pct_counts_mt,0.95,5.270029910344752
+adult,other,B Cells,doublet_score,0.1,0.0045385779122541
+adult,other,B Cells,doublet_score,0.25,0.00768678897202
+adult,other,B Cells,doublet_score,0.5,0.0128726287262872
+adult,other,B Cells,doublet_score,0.75,0.02807035224198535
+adult,other,B Cells,doublet_score,0.9,0.0718341150333251
+adult,other,B Cells,doublet_score,0.95,0.1318471337579617
+adult,other,B Cells,ribosomal_percent_retained_genes,0.1,37.1928657655225
+adult,other,B Cells,ribosomal_percent_retained_genes,0.25,40.71146478290015
+adult,other,B Cells,ribosomal_percent_retained_genes,0.5,44.12100615225615
+adult,other,B Cells,ribosomal_percent_retained_genes,0.75,47.19955798093903
+adult,other,B Cells,ribosomal_percent_retained_genes,0.9,49.804392846440344
+adult,other,B Cells,ribosomal_percent_retained_genes,0.95,51.294567024432794
+adult,other,B Cells,reference_probability,0.1,0.431269208526368
+adult,other,B Cells,reference_probability,0.25,0.6508470829242312
+adult,other,B Cells,reference_probability,0.5,0.8578014471774311
+adult,other,B Cells,reference_probability,0.75,0.9516099357946489
+adult,other,B Cells,reference_probability,0.9,0.9858140763627118
+adult,other,B Cells,reference_probability,0.95,0.9934388811082746
+adult,other,Classical Monocytes,n_genes_by_counts,0.1,666.0
+adult,other,Classical Monocytes,n_genes_by_counts,0.25,840.0
+adult,other,Classical Monocytes,n_genes_by_counts,0.5,1093.0
+adult,other,Classical Monocytes,n_genes_by_counts,0.75,1360.0
+adult,other,Classical Monocytes,n_genes_by_counts,0.9,1618.5
+adult,other,Classical Monocytes,n_genes_by_counts,0.95,1800.0
+adult,other,Classical Monocytes,total_counts,0.1,1432.0
+adult,other,Classical Monocytes,total_counts,0.25,2003.0
+adult,other,Classical Monocytes,total_counts,0.5,2956.0
+adult,other,Classical Monocytes,total_counts,0.75,4094.75
+adult,other,Classical Monocytes,total_counts,0.9,5202.0
+adult,other,Classical Monocytes,total_counts,0.95,5983.0
+adult,other,Classical Monocytes,pct_counts_mt,0.1,2.683887497611361
+adult,other,Classical Monocytes,pct_counts_mt,0.25,3.511682626589459
+adult,other,Classical Monocytes,pct_counts_mt,0.5,4.519123731054284
+adult,other,Classical Monocytes,pct_counts_mt,0.75,5.821103842686577
+adult,other,Classical Monocytes,pct_counts_mt,0.9,7.56800278539409
+adult,other,Classical Monocytes,pct_counts_mt,0.95,9.057789968404837
+adult,other,Classical Monocytes,doublet_score,0.1,0.0119495463598141
+adult,other,Classical Monocytes,doublet_score,0.25,0.0183792815371762
+adult,other,Classical Monocytes,doublet_score,0.5,0.0290893760539629
+adult,other,Classical Monocytes,doublet_score,0.75,0.0419026047565118
+adult,other,Classical Monocytes,doublet_score,0.9,0.0574293527803099
+adult,other,Classical Monocytes,doublet_score,0.95,0.074398249452954
+adult,other,Classical Monocytes,ribosomal_percent_retained_genes,0.1,16.34812153110405
+adult,other,Classical Monocytes,ribosomal_percent_retained_genes,0.25,19.185297605883274
+adult,other,Classical Monocytes,ribosomal_percent_retained_genes,0.5,22.47086891049645
+adult,other,Classical Monocytes,ribosomal_percent_retained_genes,0.75,25.5578734546813
+adult,other,Classical Monocytes,ribosomal_percent_retained_genes,0.9,28.041759533158867
+adult,other,Classical Monocytes,ribosomal_percent_retained_genes,0.95,29.54267068318738
+adult,other,Classical Monocytes,reference_probability,0.1,0.7692395235378726
+adult,other,Classical Monocytes,reference_probability,0.25,0.9203785814738408
+adult,other,Classical Monocytes,reference_probability,0.5,0.9797691272891513
+adult,other,Classical Monocytes,reference_probability,0.75,0.9950300730563588
+adult,other,Classical Monocytes,reference_probability,0.9,0.9987630521515538
+adult,other,Classical Monocytes,reference_probability,0.95,0.9995291530722431
+adult,other,NK Cells,n_genes_by_counts,0.1,772.0
+adult,other,NK Cells,n_genes_by_counts,0.25,882.0
+adult,other,NK Cells,n_genes_by_counts,0.5,1013.0
+adult,other,NK Cells,n_genes_by_counts,0.75,1213.0
+adult,other,NK Cells,n_genes_by_counts,0.9,1471.0
+adult,other,NK Cells,n_genes_by_counts,0.95,1660.75
+adult,other,NK Cells,total_counts,0.1,1764.0
+adult,other,NK Cells,total_counts,0.25,2152.0
+adult,other,NK Cells,total_counts,0.5,2642.5
+adult,other,NK Cells,total_counts,0.75,3250.0
+adult,other,NK Cells,total_counts,0.9,4031.5
+adult,other,NK Cells,total_counts,0.95,4746.5
+adult,other,NK Cells,pct_counts_mt,0.1,1.672593567623758
+adult,other,NK Cells,pct_counts_mt,0.25,2.197802197802198
+adult,other,NK Cells,pct_counts_mt,0.5,2.919254658385093
+adult,other,NK Cells,pct_counts_mt,0.75,3.7869136570242268
+adult,other,NK Cells,pct_counts_mt,0.9,4.649909941054604
+adult,other,NK Cells,pct_counts_mt,0.95,5.234561796246036
+adult,other,NK Cells,doublet_score,0.1,0.0108325595790776
+adult,other,NK Cells,doublet_score,0.25,0.0175885801682385
+adult,other,NK Cells,doublet_score,0.5,0.0309278350515463
+adult,other,NK Cells,doublet_score,0.75,0.0546344115248708
+adult,other,NK Cells,doublet_score,0.9,0.09169967264789194
+adult,other,NK Cells,doublet_score,0.95,0.1364829396325459
+adult,other,NK Cells,ribosomal_percent_retained_genes,0.1,19.734446969145786
+adult,other,NK Cells,ribosomal_percent_retained_genes,0.25,23.460336176433856
+adult,other,NK Cells,ribosomal_percent_retained_genes,0.5,28.362931647293223
+adult,other,NK Cells,ribosomal_percent_retained_genes,0.75,33.333333333333336
+adult,other,NK Cells,ribosomal_percent_retained_genes,0.9,37.57856495752207
+adult,other,NK Cells,ribosomal_percent_retained_genes,0.95,39.755281552032564
+adult,other,NK Cells,reference_probability,0.1,0.2136441419734981
+adult,other,NK Cells,reference_probability,0.25,0.43527155767468595
+adult,other,NK Cells,reference_probability,0.5,0.7899315220146821
+adult,other,NK Cells,reference_probability,0.75,0.9831666548862301
+adult,other,NK Cells,reference_probability,0.9,0.999558754824593
+adult,other,NK Cells,reference_probability,0.95,0.9999386166501323
+adult,other,Non-classical Monocytes,n_genes_by_counts,0.1,1044.6
+adult,other,Non-classical Monocytes,n_genes_by_counts,0.25,1394.0
+adult,other,Non-classical Monocytes,n_genes_by_counts,0.5,1710.0
+adult,other,Non-classical Monocytes,n_genes_by_counts,0.75,2026.5
+adult,other,Non-classical Monocytes,n_genes_by_counts,0.9,2370.4000000000005
+adult,other,Non-classical Monocytes,n_genes_by_counts,0.95,2591.0999999999995
+adult,other,Non-classical Monocytes,total_counts,0.1,2768.6
+adult,other,Non-classical Monocytes,total_counts,0.25,4251.0
+adult,other,Non-classical Monocytes,total_counts,0.5,5676.0
+adult,other,Non-classical Monocytes,total_counts,0.75,7184.5
+adult,other,Non-classical Monocytes,total_counts,0.9,9125.800000000001
+adult,other,Non-classical Monocytes,total_counts,0.95,10666.699999999997
+adult,other,Non-classical Monocytes,pct_counts_mt,0.1,1.6563084350152384
+adult,other,Non-classical Monocytes,pct_counts_mt,0.25,2.42090557848159
+adult,other,Non-classical Monocytes,pct_counts_mt,0.5,3.330007483162883
+adult,other,Non-classical Monocytes,pct_counts_mt,0.75,4.2651368875697475
+adult,other,Non-classical Monocytes,pct_counts_mt,0.9,5.383522930492685
+adult,other,Non-classical Monocytes,pct_counts_mt,0.95,6.29289650562821
+adult,other,Non-classical Monocytes,doublet_score,0.1,0.0109646693986044
+adult,other,Non-classical Monocytes,doublet_score,0.25,0.0199532626280783
+adult,other,Non-classical Monocytes,doublet_score,0.5,0.0333196215549156
+adult,other,Non-classical Monocytes,doublet_score,0.75,0.0554921214889244
+adult,other,Non-classical Monocytes,doublet_score,0.9,0.087378640776699
+adult,other,Non-classical Monocytes,doublet_score,0.95,0.11714844463546954
+adult,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.1,16.37221824531764
+adult,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.25,19.417691839333024
+adult,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.5,23.581002813172265
+adult,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.75,27.43864286518315
+adult,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.9,31.046130412050704
+adult,other,Non-classical Monocytes,ribosomal_percent_retained_genes,0.95,32.8713427961973
+adult,other,Non-classical Monocytes,reference_probability,0.1,0.5823597313979536
+adult,other,Non-classical Monocytes,reference_probability,0.25,0.853401439590437
+adult,other,Non-classical Monocytes,reference_probability,0.5,0.9827482198564093
+adult,other,Non-classical Monocytes,reference_probability,0.75,0.9985648989797475
+adult,other,Non-classical Monocytes,reference_probability,0.9,0.9997935777060148
+adult,other,Non-classical Monocytes,reference_probability,0.95,0.9999164597667508
+adult,other,Plasma Cells,n_genes_by_counts,0.1,1248.9
+adult,other,Plasma Cells,n_genes_by_counts,0.25,1976.5
+adult,other,Plasma Cells,n_genes_by_counts,0.5,2441.0
+adult,other,Plasma Cells,n_genes_by_counts,0.75,3004.5
+adult,other,Plasma Cells,n_genes_by_counts,0.9,3545.8
+adult,other,Plasma Cells,n_genes_by_counts,0.95,4064.0499999999997
+adult,other,Plasma Cells,total_counts,0.1,3292.7000000000003
+adult,other,Plasma Cells,total_counts,0.25,7204.25
+adult,other,Plasma Cells,total_counts,0.5,11203.0
+adult,other,Plasma Cells,total_counts,0.75,15477.5
+adult,other,Plasma Cells,total_counts,0.9,20034.4
+adult,other,Plasma Cells,total_counts,0.95,24261.649999999998
+adult,other,Plasma Cells,pct_counts_mt,0.1,1.8221096272554496
+adult,other,Plasma Cells,pct_counts_mt,0.25,2.5370215771766493
+adult,other,Plasma Cells,pct_counts_mt,0.5,3.439340734906866
+adult,other,Plasma Cells,pct_counts_mt,0.75,4.838954109557614
+adult,other,Plasma Cells,pct_counts_mt,0.9,8.590827000321802
+adult,other,Plasma Cells,pct_counts_mt,0.95,15.401221150813042
+adult,other,Plasma Cells,doublet_score,0.1,0.06813742967919728
+adult,other,Plasma Cells,doublet_score,0.25,0.0798409299479963
+adult,other,Plasma Cells,doublet_score,0.5,0.0970220941402497
+adult,other,Plasma Cells,doublet_score,0.75,0.1214953271028037
+adult,other,Plasma Cells,doublet_score,0.9,0.15707132406737817
+adult,other,Plasma Cells,doublet_score,0.95,0.1865873445105463
+adult,other,Plasma Cells,ribosomal_percent_retained_genes,0.1,14.897497200781576
+adult,other,Plasma Cells,ribosomal_percent_retained_genes,0.25,21.922902974977326
+adult,other,Plasma Cells,ribosomal_percent_retained_genes,0.5,26.868081911024095
+adult,other,Plasma Cells,ribosomal_percent_retained_genes,0.75,30.972342729682477
+adult,other,Plasma Cells,ribosomal_percent_retained_genes,0.9,34.79891349498116
+adult,other,Plasma Cells,ribosomal_percent_retained_genes,0.95,36.58936520949706
+adult,other,Plasma Cells,reference_probability,0.1,0.33350375186521636
+adult,other,Plasma Cells,reference_probability,0.25,0.6687885218924406
+adult,other,Plasma Cells,reference_probability,0.5,0.9297323943189812
+adult,other,Plasma Cells,reference_probability,0.75,0.9885092437255334
+adult,other,Plasma Cells,reference_probability,0.9,0.9979984172908223
+adult,other,Plasma Cells,reference_probability,0.95,0.9990046761737367
+adult,other,Platelets,n_genes_by_counts,0.1,450.2
+adult,other,Platelets,n_genes_by_counts,0.25,541.0
+adult,other,Platelets,n_genes_by_counts,0.5,837.0
+adult,other,Platelets,n_genes_by_counts,0.75,1173.0
+adult,other,Platelets,n_genes_by_counts,0.9,1453.2
+adult,other,Platelets,n_genes_by_counts,0.95,1780.9999999999995
+adult,other,Platelets,total_counts,0.1,1185.0
+adult,other,Platelets,total_counts,0.25,1367.0
+adult,other,Platelets,total_counts,0.5,2282.0
+adult,other,Platelets,total_counts,0.75,3692.0
+adult,other,Platelets,total_counts,0.9,5108.200000000001
+adult,other,Platelets,total_counts,0.95,6027.199999999999
+adult,other,Platelets,pct_counts_mt,0.1,1.0697458574710694
+adult,other,Platelets,pct_counts_mt,0.25,1.6243654822335023
+adult,other,Platelets,pct_counts_mt,0.5,2.235469448584203
+adult,other,Platelets,pct_counts_mt,0.75,3.151862464183381
+adult,other,Platelets,pct_counts_mt,0.9,4.125276887512751
+adult,other,Platelets,pct_counts_mt,0.95,4.9522014368363525
+adult,other,Platelets,doublet_score,0.1,0.03635346108812866
+adult,other,Platelets,doublet_score,0.25,0.0519622889717167
+adult,other,Platelets,doublet_score,0.5,0.0798409299479963
+adult,other,Platelets,doublet_score,0.75,0.1063094209161624
+adult,other,Platelets,doublet_score,0.9,0.14692955975397115
+adult,other,Platelets,doublet_score,0.95,0.1702395964691047
+adult,other,Platelets,ribosomal_percent_retained_genes,0.1,1.94326085889941
+adult,other,Platelets,ribosomal_percent_retained_genes,0.25,2.796674225245654
+adult,other,Platelets,ribosomal_percent_retained_genes,0.5,4.754716981132075
+adult,other,Platelets,ribosomal_percent_retained_genes,0.75,36.14360629286002
+adult,other,Platelets,ribosomal_percent_retained_genes,0.9,44.26270614053651
+adult,other,Platelets,ribosomal_percent_retained_genes,0.95,46.230787527281926
+adult,other,Platelets,reference_probability,0.1,0.29563229933516894
+adult,other,Platelets,reference_probability,0.25,0.7351755778276424
+adult,other,Platelets,reference_probability,0.5,0.9529355505013956
+adult,other,Platelets,reference_probability,0.75,0.993728464206442
+adult,other,Platelets,reference_probability,0.9,0.9987697788279662
+adult,other,Platelets,reference_probability,0.95,0.999721872993858
+adult,other,RBCs,n_genes_by_counts,0.1,209.0
+adult,other,RBCs,n_genes_by_counts,0.25,225.0
+adult,other,RBCs,n_genes_by_counts,0.5,254.0
+adult,other,RBCs,n_genes_by_counts,0.75,323.0
+adult,other,RBCs,n_genes_by_counts,0.9,532.6000000000005
+adult,other,RBCs,n_genes_by_counts,0.95,1177.1999999999982
+adult,other,RBCs,total_counts,0.1,4054.8
+adult,other,RBCs,total_counts,0.25,4983.0
+adult,other,RBCs,total_counts,0.5,5975.0
+adult,other,RBCs,total_counts,0.75,6988.0
+adult,other,RBCs,total_counts,0.9,8455.6
+adult,other,RBCs,total_counts,0.95,9565.799999999996
+adult,other,RBCs,pct_counts_mt,0.1,0.02087508481075364
+adult,other,RBCs,pct_counts_mt,0.25,0.041407867494824
+adult,other,RBCs,pct_counts_mt,0.5,0.0727272727272727
+adult,other,RBCs,pct_counts_mt,0.75,0.1169362697329955
+adult,other,RBCs,pct_counts_mt,0.9,0.7386985003895911
+adult,other,RBCs,pct_counts_mt,0.95,1.6178853450928077
+adult,other,RBCs,doublet_score,0.1,0.0045385779122541
+adult,other,RBCs,doublet_score,0.25,0.0099986668444207
+adult,other,RBCs,doublet_score,0.5,0.0173193946013418
+adult,other,RBCs,doublet_score,0.75,0.0246869409660107
+adult,other,RBCs,doublet_score,0.9,0.0699010533035429
+adult,other,RBCs,doublet_score,0.95,0.12687000637797427
+adult,other,RBCs,ribosomal_percent_retained_genes,0.1,0.5851049300296597
+adult,other,RBCs,ribosomal_percent_retained_genes,0.25,0.7101568951279934
+adult,other,RBCs,ribosomal_percent_retained_genes,0.5,0.8786381109280615
+adult,other,RBCs,ribosomal_percent_retained_genes,0.75,1.219241853247617
+adult,other,RBCs,ribosomal_percent_retained_genes,0.9,5.3641408112238675
+adult,other,RBCs,ribosomal_percent_retained_genes,0.95,26.139808548259218
+adult,other,RBCs,reference_probability,0.1,0.49020626229442305
+adult,other,RBCs,reference_probability,0.25,0.6817178896319822
+adult,other,RBCs,reference_probability,0.5,0.8042540662461153
+adult,other,RBCs,reference_probability,0.75,0.887589015057421
+adult,other,RBCs,reference_probability,0.9,0.9343702183601206
+adult,other,RBCs,reference_probability,0.95,0.9522906675554975
+adult,other,pDCs,n_genes_by_counts,0.1,1084.8
+adult,other,pDCs,n_genes_by_counts,0.25,1506.0
+adult,other,pDCs,n_genes_by_counts,0.5,1706.0
+adult,other,pDCs,n_genes_by_counts,0.75,1975.0
+adult,other,pDCs,n_genes_by_counts,0.9,2425.6000000000004
+adult,other,pDCs,n_genes_by_counts,0.95,2699.0
+adult,other,pDCs,total_counts,0.1,2792.0000000000005
+adult,other,pDCs,total_counts,0.25,4555.0
+adult,other,pDCs,total_counts,0.5,5555.0
+adult,other,pDCs,total_counts,0.75,6887.0
+adult,other,pDCs,total_counts,0.9,9880.000000000007
+adult,other,pDCs,total_counts,0.95,11947.8
+adult,other,pDCs,pct_counts_mt,0.1,1.4870575179616172
+adult,other,pDCs,pct_counts_mt,0.25,1.823329558323896
+adult,other,pDCs,pct_counts_mt,0.5,2.247191011235955
+adult,other,pDCs,pct_counts_mt,0.75,2.874885004599816
+adult,other,pDCs,pct_counts_mt,0.9,3.6841131761367807
+adult,other,pDCs,pct_counts_mt,0.95,5.5952234732805834
+adult,other,pDCs,doublet_score,0.1,0.018920191511590582
+adult,other,pDCs,doublet_score,0.25,0.0404083368779242
+adult,other,pDCs,doublet_score,0.5,0.0776778413736712
+adult,other,pDCs,doublet_score,0.75,0.1050663039782386
+adult,other,pDCs,doublet_score,0.9,0.14447136755861584
+adult,other,pDCs,doublet_score,0.95,0.1811846689895469
+adult,other,pDCs,ribosomal_percent_retained_genes,0.1,27.532266816103608
+adult,other,pDCs,ribosomal_percent_retained_genes,0.25,31.84134721914469
+adult,other,pDCs,ribosomal_percent_retained_genes,0.5,35.4199066874028
+adult,other,pDCs,ribosomal_percent_retained_genes,0.75,39.52437106918239
+adult,other,pDCs,ribosomal_percent_retained_genes,0.9,47.774169604220255
+adult,other,pDCs,ribosomal_percent_retained_genes,0.95,51.055945390159096
+adult,other,pDCs,reference_probability,0.1,0.07437523092040098
+adult,other,pDCs,reference_probability,0.25,0.8113145087443827
+adult,other,pDCs,reference_probability,0.5,0.9994151993126896
+adult,other,pDCs,reference_probability,0.75,0.9999397868160812
+adult,other,pDCs,reference_probability,0.9,0.9999912893523663
+adult,other,pDCs,reference_probability,0.95,0.99999560574824
+adult,restored,CD4 T Cells,n_genes_by_counts,0.1,732.0
+adult,restored,CD4 T Cells,n_genes_by_counts,0.25,837.0
+adult,restored,CD4 T Cells,n_genes_by_counts,0.5,982.0
+adult,restored,CD4 T Cells,n_genes_by_counts,0.75,1150.0
+adult,restored,CD4 T Cells,n_genes_by_counts,0.9,1328.0
+adult,restored,CD4 T Cells,n_genes_by_counts,0.95,1457.0
+adult,restored,CD4 T Cells,total_counts,0.1,2251.9
+adult,restored,CD4 T Cells,total_counts,0.25,2712.75
+adult,restored,CD4 T Cells,total_counts,0.5,3346.0
+adult,restored,CD4 T Cells,total_counts,0.75,4118.0
+adult,restored,CD4 T Cells,total_counts,0.9,4962.200000000001
+adult,restored,CD4 T Cells,total_counts,0.95,5533.249999999996
+adult,restored,CD4 T Cells,pct_counts_mt,0.1,1.2452345637485496
+adult,restored,CD4 T Cells,pct_counts_mt,0.25,1.5489620346410127
+adult,restored,CD4 T Cells,pct_counts_mt,0.5,1.9602262183258645
+adult,restored,CD4 T Cells,pct_counts_mt,0.75,2.4638701228121147
+adult,restored,CD4 T Cells,pct_counts_mt,0.9,2.9884436210081224
+adult,restored,CD4 T Cells,pct_counts_mt,0.95,3.3883137092204194
+adult,restored,CD4 T Cells,doublet_score,0.1,0.02910612070398777
+adult,restored,CD4 T Cells,doublet_score,0.25,0.043362831858407
+adult,restored,CD4 T Cells,doublet_score,0.5,0.0676779463243874
+adult,restored,CD4 T Cells,doublet_score,0.75,0.102319236016371
+adult,restored,CD4 T Cells,doublet_score,0.9,0.1435079726651479
+adult,restored,CD4 T Cells,doublet_score,0.95,0.1737914502596883
+adult,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.1,41.45889996503372
+adult,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.25,44.9738675353179
+adult,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.5,47.97867273642197
+adult,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.75,50.72342834018581
+adult,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.9,53.13504536495032
+adult,restored,CD4 T Cells,ribosomal_percent_retained_genes,0.95,54.53252284788443
+adult,restored,CD4 T Cells,reference_probability,0.1,0.6786562311586313
+adult,restored,CD4 T Cells,reference_probability,0.25,0.8356323536017668
+adult,restored,CD4 T Cells,reference_probability,0.5,0.9447834302088006
+adult,restored,CD4 T Cells,reference_probability,0.75,0.9848514212810222
+adult,restored,CD4 T Cells,reference_probability,0.9,0.9955065372602702
+adult,restored,CD4 T Cells,reference_probability,0.95,0.9977166658965926
+adult,restored,CD8 T Cells,n_genes_by_counts,0.1,819.0
+adult,restored,CD8 T Cells,n_genes_by_counts,0.25,937.0
+adult,restored,CD8 T Cells,n_genes_by_counts,0.5,1080.0
+adult,restored,CD8 T Cells,n_genes_by_counts,0.75,1263.75
+adult,restored,CD8 T Cells,n_genes_by_counts,0.9,1452.0
+adult,restored,CD8 T Cells,n_genes_by_counts,0.95,1591.3499999999995
+adult,restored,CD8 T Cells,total_counts,0.1,2733.9
+adult,restored,CD8 T Cells,total_counts,0.25,3294.0
+adult,restored,CD8 T Cells,total_counts,0.5,3984.0
+adult,restored,CD8 T Cells,total_counts,0.75,4753.75
+adult,restored,CD8 T Cells,total_counts,0.9,5534.1
+adult,restored,CD8 T Cells,total_counts,0.95,6096.049999999998
+adult,restored,CD8 T Cells,pct_counts_mt,0.1,1.5620993028124268
+adult,restored,CD8 T Cells,pct_counts_mt,0.25,1.9477090709689533
+adult,restored,CD8 T Cells,pct_counts_mt,0.5,2.4608217832420074
+adult,restored,CD8 T Cells,pct_counts_mt,0.75,3.0698945103839437
+adult,restored,CD8 T Cells,pct_counts_mt,0.9,3.644401441345256
+adult,restored,CD8 T Cells,pct_counts_mt,0.95,4.029731011062187
+adult,restored,CD8 T Cells,doublet_score,0.1,0.024324479892937633
+adult,restored,CD8 T Cells,doublet_score,0.25,0.0341447992412266
+adult,restored,CD8 T Cells,doublet_score,0.5,0.0523160762942779
+adult,restored,CD8 T Cells,doublet_score,0.75,0.0797202797202797
+adult,restored,CD8 T Cells,doublet_score,0.9,0.1147260273972602
+adult,restored,CD8 T Cells,doublet_score,0.95,0.1429755491089929
+adult,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.1,42.81223576715605
+adult,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.25,45.73259631879633
+adult,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.5,48.63112900167981
+adult,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.75,51.38273551252577
+adult,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.9,53.55887574743119
+adult,restored,CD8 T Cells,ribosomal_percent_retained_genes,0.95,54.95724650079856
+adult,restored,CD8 T Cells,reference_probability,0.1,0.7385120469710501
+adult,restored,CD8 T Cells,reference_probability,0.25,0.8818020718360398
+adult,restored,CD8 T Cells,reference_probability,0.5,0.9645127183293865
+adult,restored,CD8 T Cells,reference_probability,0.75,0.9903558790092533
+adult,restored,CD8 T Cells,reference_probability,0.9,0.9970570360692838
+adult,restored,CD8 T Cells,reference_probability,0.95,0.9986498123775227

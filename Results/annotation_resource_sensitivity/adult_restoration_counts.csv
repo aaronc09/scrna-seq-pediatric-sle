@@ -1,0 +1,224 @@
+sample,cluster,original_label,sensitivity_label,restore,n_cells
+GSM4029940_JB19001,0,Ribosomal/Low-quality,CD4 T Cells,True,1135
+GSM4029940_JB19001,0,Ribosomal/Low-quality,CD8 T Cells,True,222
+GSM4029940_JB19001,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,585
+GSM4029940_JB19001,1,Classical Monocytes,Classical Monocytes,False,492
+GSM4029940_JB19001,10,pDCs,pDCs,False,37
+GSM4029940_JB19001,11,Platelets,Platelets,False,27
+GSM4029940_JB19001,12,Plasma Cells,Plasma Cells,False,22
+GSM4029940_JB19001,13,CD8 T Cells,CD8 T Cells,False,13
+GSM4029940_JB19001,14,Classical Monocytes,Classical Monocytes,False,1
+GSM4029940_JB19001,2,CD4 T Cells,CD4 T Cells,False,1065
+GSM4029940_JB19001,3,NK Cells,NK Cells,False,1029
+GSM4029940_JB19001,4,Ribosomal/Low-quality,CD4 T Cells,True,458
+GSM4029940_JB19001,4,Ribosomal/Low-quality,CD8 T Cells,True,2
+GSM4029940_JB19001,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,261
+GSM4029940_JB19001,5,Non-classical Monocytes,Non-classical Monocytes,False,327
+GSM4029940_JB19001,6,NK Cells,NK Cells,False,347
+GSM4029940_JB19001,7,CD8 T Cells,CD8 T Cells,False,599
+GSM4029940_JB19001,8,B Cells,B Cells,False,346
+GSM4029940_JB19001,9,RBCs,RBCs,False,7
+GSM4029942_JB19003,0,Ribosomal/Low-quality,CD4 T Cells,True,418
+GSM4029942_JB19003,0,Ribosomal/Low-quality,CD8 T Cells,True,284
+GSM4029942_JB19003,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,269
+GSM4029942_JB19003,1,Classical Monocytes,Classical Monocytes,False,1897
+GSM4029942_JB19003,10,pDCs,pDCs,False,47
+GSM4029942_JB19003,11,Platelets,Platelets,False,21
+GSM4029942_JB19003,12,Plasma Cells,Plasma Cells,False,2
+GSM4029942_JB19003,13,CD8 T Cells,CD8 T Cells,False,4
+GSM4029942_JB19003,2,CD4 T Cells,CD4 T Cells,False,890
+GSM4029942_JB19003,3,NK Cells,NK Cells,False,770
+GSM4029942_JB19003,4,Ribosomal/Low-quality,CD4 T Cells,True,243
+GSM4029942_JB19003,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,213
+GSM4029942_JB19003,5,Non-classical Monocytes,Non-classical Monocytes,False,541
+GSM4029942_JB19003,6,NK Cells,NK Cells,False,470
+GSM4029942_JB19003,7,CD8 T Cells,CD8 T Cells,False,490
+GSM4029942_JB19003,8,B Cells,B Cells,False,405
+GSM4029942_JB19003,9,RBCs,RBCs,False,2
+GSM4029943_JB19004,0,Ribosomal/Low-quality,CD4 T Cells,True,183
+GSM4029943_JB19004,0,Ribosomal/Low-quality,CD8 T Cells,True,262
+GSM4029943_JB19004,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,129
+GSM4029943_JB19004,1,Classical Monocytes,Classical Monocytes,False,521
+GSM4029943_JB19004,10,pDCs,pDCs,False,18
+GSM4029943_JB19004,11,Platelets,Platelets,False,28
+GSM4029943_JB19004,12,Plasma Cells,Plasma Cells,False,18
+GSM4029943_JB19004,13,CD8 T Cells,CD8 T Cells,False,28
+GSM4029943_JB19004,14,Classical Monocytes,Classical Monocytes,False,6
+GSM4029943_JB19004,2,CD4 T Cells,CD4 T Cells,False,259
+GSM4029943_JB19004,3,NK Cells,NK Cells,False,1207
+GSM4029943_JB19004,4,Ribosomal/Low-quality,CD4 T Cells,True,83
+GSM4029943_JB19004,4,Ribosomal/Low-quality,CD8 T Cells,True,4
+GSM4029943_JB19004,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,42
+GSM4029943_JB19004,5,Non-classical Monocytes,Non-classical Monocytes,False,353
+GSM4029943_JB19004,6,NK Cells,NK Cells,False,455
+GSM4029943_JB19004,7,CD8 T Cells,CD8 T Cells,False,437
+GSM4029943_JB19004,8,B Cells,B Cells,False,64
+GSM4029943_JB19004,9,RBCs,RBCs,False,93
+GSM4029944_JB19006,0,Ribosomal/Low-quality,CD4 T Cells,True,123
+GSM4029944_JB19006,0,Ribosomal/Low-quality,CD8 T Cells,True,79
+GSM4029944_JB19006,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,131
+GSM4029944_JB19006,1,Classical Monocytes,Classical Monocytes,False,1273
+GSM4029944_JB19006,10,pDCs,pDCs,False,19
+GSM4029944_JB19006,11,Platelets,Platelets,False,15
+GSM4029944_JB19006,12,Plasma Cells,Plasma Cells,False,31
+GSM4029944_JB19006,13,CD8 T Cells,CD8 T Cells,False,12
+GSM4029944_JB19006,14,Classical Monocytes,Classical Monocytes,False,20
+GSM4029944_JB19006,2,CD4 T Cells,CD4 T Cells,False,397
+GSM4029944_JB19006,3,NK Cells,NK Cells,False,643
+GSM4029944_JB19006,4,Ribosomal/Low-quality,CD4 T Cells,True,122
+GSM4029944_JB19006,4,Ribosomal/Low-quality,CD8 T Cells,True,1
+GSM4029944_JB19006,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,74
+GSM4029944_JB19006,5,Non-classical Monocytes,Non-classical Monocytes,False,879
+GSM4029944_JB19006,6,NK Cells,NK Cells,False,84
+GSM4029944_JB19006,7,CD8 T Cells,CD8 T Cells,False,241
+GSM4029944_JB19006,8,B Cells,B Cells,False,55
+GSM4029944_JB19006,9,RBCs,RBCs,False,225
+GSM4029945_JB19007,0,Ribosomal/Low-quality,CD4 T Cells,True,1157
+GSM4029945_JB19007,0,Ribosomal/Low-quality,CD8 T Cells,True,623
+GSM4029945_JB19007,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,670
+GSM4029945_JB19007,1,Classical Monocytes,Classical Monocytes,False,1186
+GSM4029945_JB19007,10,pDCs,pDCs,False,26
+GSM4029945_JB19007,11,Platelets,Platelets,False,11
+GSM4029945_JB19007,12,Plasma Cells,Plasma Cells,False,47
+GSM4029945_JB19007,13,CD8 T Cells,CD8 T Cells,False,21
+GSM4029945_JB19007,14,Classical Monocytes,Classical Monocytes,False,1
+GSM4029945_JB19007,2,CD4 T Cells,CD4 T Cells,False,1179
+GSM4029945_JB19007,3,NK Cells,NK Cells,False,217
+GSM4029945_JB19007,4,Ribosomal/Low-quality,CD4 T Cells,True,569
+GSM4029945_JB19007,4,Ribosomal/Low-quality,CD8 T Cells,True,12
+GSM4029945_JB19007,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,249
+GSM4029945_JB19007,5,Non-classical Monocytes,Non-classical Monocytes,False,667
+GSM4029945_JB19007,6,NK Cells,NK Cells,False,113
+GSM4029945_JB19007,7,CD8 T Cells,CD8 T Cells,False,265
+GSM4029945_JB19007,8,B Cells,B Cells,False,273
+GSM4029945_JB19007,9,RBCs,RBCs,False,21
+GSM4029946_JB19008,0,Ribosomal/Low-quality,CD4 T Cells,True,605
+GSM4029946_JB19008,0,Ribosomal/Low-quality,CD8 T Cells,True,406
+GSM4029946_JB19008,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,353
+GSM4029946_JB19008,1,Classical Monocytes,Classical Monocytes,False,1267
+GSM4029946_JB19008,10,pDCs,pDCs,False,58
+GSM4029946_JB19008,11,Platelets,Platelets,False,71
+GSM4029946_JB19008,12,Plasma Cells,Plasma Cells,False,36
+GSM4029946_JB19008,13,CD8 T Cells,CD8 T Cells,False,8
+GSM4029946_JB19008,14,Classical Monocytes,Classical Monocytes,False,1
+GSM4029946_JB19008,2,CD4 T Cells,CD4 T Cells,False,720
+GSM4029946_JB19008,3,NK Cells,NK Cells,False,621
+GSM4029946_JB19008,4,Ribosomal/Low-quality,CD4 T Cells,True,296
+GSM4029946_JB19008,4,Ribosomal/Low-quality,CD8 T Cells,True,7
+GSM4029946_JB19008,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,173
+GSM4029946_JB19008,5,Non-classical Monocytes,Non-classical Monocytes,False,441
+GSM4029946_JB19008,6,NK Cells,NK Cells,False,604
+GSM4029946_JB19008,7,CD8 T Cells,CD8 T Cells,False,277
+GSM4029946_JB19008,8,B Cells,B Cells,False,95
+GSM4029946_JB19008,9,RBCs,RBCs,False,9
+GSM4029947_JB19009,0,Ribosomal/Low-quality,CD4 T Cells,True,705
+GSM4029947_JB19009,0,Ribosomal/Low-quality,CD8 T Cells,True,271
+GSM4029947_JB19009,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,439
+GSM4029947_JB19009,1,Classical Monocytes,Classical Monocytes,False,508
+GSM4029947_JB19009,10,pDCs,pDCs,False,22
+GSM4029947_JB19009,11,Platelets,Platelets,False,14
+GSM4029947_JB19009,12,Plasma Cells,Plasma Cells,False,17
+GSM4029947_JB19009,13,CD8 T Cells,CD8 T Cells,False,16
+GSM4029947_JB19009,2,CD4 T Cells,CD4 T Cells,False,1259
+GSM4029947_JB19009,3,NK Cells,NK Cells,False,751
+GSM4029947_JB19009,4,Ribosomal/Low-quality,CD4 T Cells,True,423
+GSM4029947_JB19009,4,Ribosomal/Low-quality,CD8 T Cells,True,6
+GSM4029947_JB19009,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,295
+GSM4029947_JB19009,5,Non-classical Monocytes,Non-classical Monocytes,False,187
+GSM4029947_JB19009,6,NK Cells,NK Cells,False,474
+GSM4029947_JB19009,7,CD8 T Cells,CD8 T Cells,False,484
+GSM4029947_JB19009,8,B Cells,B Cells,False,603
+GSM4029947_JB19009,9,RBCs,RBCs,False,3
+GSM4029948_JB19010,0,Ribosomal/Low-quality,CD4 T Cells,True,652
+GSM4029948_JB19010,0,Ribosomal/Low-quality,CD8 T Cells,True,577
+GSM4029948_JB19010,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,570
+GSM4029948_JB19010,1,Classical Monocytes,Classical Monocytes,False,1684
+GSM4029948_JB19010,10,pDCs,pDCs,False,128
+GSM4029948_JB19010,11,Platelets,Platelets,False,25
+GSM4029948_JB19010,12,Plasma Cells,Plasma Cells,False,11
+GSM4029948_JB19010,13,CD8 T Cells,CD8 T Cells,False,6
+GSM4029948_JB19010,14,Classical Monocytes,Classical Monocytes,False,4
+GSM4029948_JB19010,2,CD4 T Cells,CD4 T Cells,False,1106
+GSM4029948_JB19010,3,NK Cells,NK Cells,False,341
+GSM4029948_JB19010,4,Ribosomal/Low-quality,CD4 T Cells,True,397
+GSM4029948_JB19010,4,Ribosomal/Low-quality,CD8 T Cells,True,9
+GSM4029948_JB19010,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,312
+GSM4029948_JB19010,5,Non-classical Monocytes,Non-classical Monocytes,False,474
+GSM4029948_JB19010,6,NK Cells,NK Cells,False,697
+GSM4029948_JB19010,7,CD8 T Cells,CD8 T Cells,False,352
+GSM4029948_JB19010,8,B Cells,B Cells,False,499
+GSM4029948_JB19010,9,RBCs,RBCs,False,32
+GSM4029949_JB19011,0,Ribosomal/Low-quality,CD4 T Cells,True,2826
+GSM4029949_JB19011,0,Ribosomal/Low-quality,CD8 T Cells,True,695
+GSM4029949_JB19011,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,2516
+GSM4029949_JB19011,1,Classical Monocytes,Classical Monocytes,False,407
+GSM4029949_JB19011,10,pDCs,pDCs,False,58
+GSM4029949_JB19011,11,Platelets,Platelets,False,41
+GSM4029949_JB19011,12,Plasma Cells,Plasma Cells,False,30
+GSM4029949_JB19011,13,CD8 T Cells,CD8 T Cells,False,7
+GSM4029949_JB19011,14,Classical Monocytes,Classical Monocytes,False,1
+GSM4029949_JB19011,2,CD4 T Cells,CD4 T Cells,False,1566
+GSM4029949_JB19011,3,NK Cells,NK Cells,False,745
+GSM4029949_JB19011,4,Ribosomal/Low-quality,CD4 T Cells,True,784
+GSM4029949_JB19011,4,Ribosomal/Low-quality,CD8 T Cells,True,11
+GSM4029949_JB19011,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,631
+GSM4029949_JB19011,5,Non-classical Monocytes,Non-classical Monocytes,False,187
+GSM4029949_JB19011,6,NK Cells,NK Cells,False,725
+GSM4029949_JB19011,7,CD8 T Cells,CD8 T Cells,False,532
+GSM4029949_JB19011,8,B Cells,B Cells,False,491
+GSM4029949_JB19011,9,RBCs,RBCs,False,15
+GSM4029950_JB19013,0,Ribosomal/Low-quality,CD4 T Cells,True,436
+GSM4029950_JB19013,0,Ribosomal/Low-quality,CD8 T Cells,True,657
+GSM4029950_JB19013,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,298
+GSM4029950_JB19013,1,Classical Monocytes,Classical Monocytes,False,580
+GSM4029950_JB19013,10,pDCs,pDCs,False,11
+GSM4029950_JB19013,11,Platelets,Platelets,False,14
+GSM4029950_JB19013,12,Plasma Cells,Plasma Cells,False,4
+GSM4029950_JB19013,13,CD8 T Cells,CD8 T Cells,False,13
+GSM4029950_JB19013,2,CD4 T Cells,CD4 T Cells,False,481
+GSM4029950_JB19013,3,NK Cells,NK Cells,False,997
+GSM4029950_JB19013,4,Ribosomal/Low-quality,CD4 T Cells,True,142
+GSM4029950_JB19013,4,Ribosomal/Low-quality,CD8 T Cells,True,7
+GSM4029950_JB19013,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,67
+GSM4029950_JB19013,5,Non-classical Monocytes,Non-classical Monocytes,False,205
+GSM4029950_JB19013,6,NK Cells,NK Cells,False,220
+GSM4029950_JB19013,7,CD8 T Cells,CD8 T Cells,False,232
+GSM4029950_JB19013,8,B Cells,B Cells,False,141
+GSM4029950_JB19013,9,RBCs,RBCs,False,1
+GSM4029951_JB19014,0,Ribosomal/Low-quality,CD4 T Cells,True,455
+GSM4029951_JB19014,0,Ribosomal/Low-quality,CD8 T Cells,True,241
+GSM4029951_JB19014,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,209
+GSM4029951_JB19014,1,Classical Monocytes,Classical Monocytes,False,910
+GSM4029951_JB19014,10,pDCs,pDCs,False,17
+GSM4029951_JB19014,11,Platelets,Platelets,False,6
+GSM4029951_JB19014,12,Plasma Cells,Plasma Cells,False,3
+GSM4029951_JB19014,13,CD8 T Cells,CD8 T Cells,False,4
+GSM4029951_JB19014,2,CD4 T Cells,CD4 T Cells,False,940
+GSM4029951_JB19014,3,NK Cells,NK Cells,False,57
+GSM4029951_JB19014,4,Ribosomal/Low-quality,CD4 T Cells,True,262
+GSM4029951_JB19014,4,Ribosomal/Low-quality,CD8 T Cells,True,1
+GSM4029951_JB19014,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,108
+GSM4029951_JB19014,5,Non-classical Monocytes,Non-classical Monocytes,False,268
+GSM4029951_JB19014,6,NK Cells,NK Cells,False,7
+GSM4029951_JB19014,7,CD8 T Cells,CD8 T Cells,False,174
+GSM4029951_JB19014,8,B Cells,B Cells,False,22
+GSM4029951_JB19014,9,RBCs,RBCs,False,7
+GSM4029952_JB19015,0,Ribosomal/Low-quality,CD4 T Cells,True,278
+GSM4029952_JB19015,0,Ribosomal/Low-quality,CD8 T Cells,True,55
+GSM4029952_JB19015,0,Ribosomal/Low-quality,Ribosomal/Low-quality,False,178
+GSM4029952_JB19015,1,Classical Monocytes,Classical Monocytes,False,767
+GSM4029952_JB19015,10,pDCs,pDCs,False,16
+GSM4029952_JB19015,11,Platelets,Platelets,False,24
+GSM4029952_JB19015,12,Plasma Cells,Plasma Cells,False,1
+GSM4029952_JB19015,13,CD8 T Cells,CD8 T Cells,False,6
+GSM4029952_JB19015,14,Classical Monocytes,Classical Monocytes,False,20
+GSM4029952_JB19015,2,CD4 T Cells,CD4 T Cells,False,593
+GSM4029952_JB19015,3,NK Cells,NK Cells,False,472
+GSM4029952_JB19015,4,Ribosomal/Low-quality,CD4 T Cells,True,248
+GSM4029952_JB19015,4,Ribosomal/Low-quality,CD8 T Cells,True,2
+GSM4029952_JB19015,4,Ribosomal/Low-quality,Ribosomal/Low-quality,False,143
+GSM4029952_JB19015,5,Non-classical Monocytes,Non-classical Monocytes,False,318
+GSM4029952_JB19015,6,NK Cells,NK Cells,False,320
+GSM4029952_JB19015,7,CD8 T Cells,CD8 T Cells,False,166
+GSM4029952_JB19015,8,B Cells,B Cells,False,132
+GSM4029952_JB19015,9,RBCs,RBCs,False,678

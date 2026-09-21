@@ -1,0 +1,5 @@
+embedding,label,silhouette_score,interpretation,n_cells_sampled
+before_harmony,sample,-0.06856212019920349,lower absolute silhouette indicates better sample mixing,5000
+before_harmony,cell_type,0.2177697718143463,higher silhouette indicates better cell-type conservation,5000
+after_harmony,sample,-0.09809207425121355,lower absolute silhouette indicates better sample mixing,5000
+after_harmony,cell_type,0.2468579321482899,higher silhouette indicates better cell-type conservation,5000

@@ -1,0 +1,8 @@
+{
+  "interaction_coef": 1.0130785099704553e-15,
+  "interaction_ci95_low": 1.0547118733938987e-15,
+  "interaction_ci95_high": 1.1171619185290638e-15,
+  "interaction_p_value": 3.6314284912464245e-12,
+  "fdr_q_value": 3.892774991243186e-12,
+  "n_observations": 0.0
+}

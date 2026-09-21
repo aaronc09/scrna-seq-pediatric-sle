@@ -1,0 +1,14 @@
+{
+  "cells": 298610,
+  "donors": 56,
+  "primary_tests": 2374,
+  "primary_fdr05": 171,
+  "female_tests": 2373,
+  "female_fdr05": 145,
+  "independent_HC3_checks": 12,
+  "max_HC3_coefficient_difference": 2.220446049250313e-16,
+  "max_HC3_p_difference": 3.89011739487799e-16,
+  "presentation_copies_match": true,
+  "journal_jpeg_dpi": 600,
+  "figures_and_tables_visually_reviewed": true
+}
