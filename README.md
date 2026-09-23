@@ -1,122 +1,447 @@
-# Pediatric and adult SLE cell-cell communication
+# Pediatric vs. Adult SLE Cell-Cell Communication
 
-Research code and supporting results for an observational analysis of peripheral-blood single-cell RNA sequencing from GEO series **GSE135779**. The analysis compares inferred ligand-receptor communication across pediatric healthy, pediatric SLE, adult healthy, and adult SLE donors.
+## LIANA+ Analysis of Single-Cell RNA-Seq Data
 
-**Current primary analysis:** reviewed T-cell restoration, 298,610 cells from 56 donors, and 171 significant interactions among 2,374 tests. See [the revised primary package](Results/revised_primary/README.md) and [annotation review](Results/annotation_review/README.md). The original full-cluster exclusions are retained as a sensitivity comparison. Visible manuscript figures and tables correspond to the revised primary analysis.
+This repository contains the code and analysis for the study:
 
-## Repository contents
+**“LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts”**
 
-| Location | Contents |
-|---|---|
-| `Notebooks/` | Preprocessing, annotation, LIANA inference, statistical models, figure generation, and supporting-data exports |
-| `Results/manuscript_tables/` | Main and supplementary tables as machine-readable CSV files |
-| `Results/manuscript_figures/` | Research figures |
-| `Results/qc/` | Quality-control summaries, annotation evidence, excluded-cell identifiers, and donor coverage |
-| `Results/revised_primary/` | Current primary models, female-only models, exact labels, and comparison results |
-| `Results/annotation_review/` | Marker, QC, doublet-score, and donor consistency review supporting the revision |
-| `Results/sensitivity_analysis/` | Historical sensitivity results using the original exclusions |
-| `Results/severity_analysis/` | Clinical metadata and historical original-exclusion model results |
-| `Results/provenance/` | Recorded software versions, run information, and source-file reconciliation |
-| `GSE135779 GSM IDs.xlsx` | Study-to-GEO sample mapping |
-| `suppdata.xlsx` | Source supplementary metadata |
+**Authors:** Aaron Choi and Courtney Hatton
 
-This repository contains research code and supporting results. Manuscript drafts and journal submission packages are maintained separately. Local analysis caches under `_local_submission/` are excluded from Git; omit that directory if uploading files through the GitHub website.
+---
 
-Current research figures and tables are kept only in `Results/manuscript_figures/` and `Results/manuscript_tables/`. Authoritative models remain in `Results/revised_primary/`. The 22 numbered historical run records have been combined into `Results/provenance/run_manifests.json`, keyed by their original filenames. Script 17 with `--publish` now removes duplicate presentation staging files and consolidates those run records automatically. Scientific provenance and original-exclusion comparisons are retained to support the research.
+## Overview
 
-## Environment and input data
+Systemic lupus erythematosus (SLE) is an autoimmune disease in which the immune system attacks the body's own tissues. SLE can occur in both children and adults, but pediatric and adult disease can differ in clinical and immune characteristics.
 
-The recorded analysis environment uses **Python 3.12.10**. From the repository root on Windows:
+Most single-cell studies examine which genes are expressed by different immune-cell populations. In this project, we asked a related question:
 
-```powershell
-py -3.12 -m venv .venv
-.venv\Scripts\python.exe -m pip install --upgrade pip
-.venv\Scripts\python.exe -m pip install -r requirements.txt
-.venv\Scripts\Activate.ps1
+> **Do SLE-associated patterns of communication between immune cells differ between pediatric and adult cohorts?**
+
+To investigate this, we reanalyzed publicly available single-cell RNA-sequencing (scRNA-seq) data and used **LIANA+** to infer potential cell-cell communication based on the expression of known ligand-receptor pairs.
+
+Importantly, these analyses identify **candidate communication patterns from RNA expression**. They do not directly demonstrate physical cell-cell interactions, protein binding, or signaling activity.
+
+---
+
+## Study Design
+
+The analysis used publicly available peripheral blood mononuclear cell (PBMC) scRNA-seq data from:
+
+**GEO accession: GSE135779**
+
+The analyzed dataset included **56 donors**:
+
+| Group | Donors |
+|---|---:|
+| Pediatric SLE | 33 |
+| Pediatric healthy | 11 |
+| Adult SLE | 7 |
+| Adult healthy | 5 |
+| **Total** | **56** |
+
+After quality control and revised cell-type annotation, the primary analysis included:
+
+- **233,770 pediatric cells**
+- **64,840 adult cells**
+- **298,610 cells total**
+
+Major immune-cell populations included:
+
+- CD4 T cells
+- CD8 T cells
+- B cells
+- NK cells
+- Classical monocytes
+- Non-classical monocytes
+- Plasma cells
+- Plasmacytoid dendritic cells (pDCs)
+
+---
+
+## Main Research Question
+
+Simply comparing pediatric SLE with adult SLE could be misleading because healthy children and healthy adults may already have biological differences.
+
+Instead, we first compared SLE with healthy donors **within each age cohort**, and then compared those changes:
+
+```text
+(pediatric SLE - pediatric healthy)
+              -
+(adult SLE - adult healthy)
 ```
 
-An environment specification is also provided in `environment.yml`; recorded run versions are under `Results/provenance/`.
+This is the **age-group-by-SLE interaction** used in the primary statistical analysis.
 
-Raw GEO matrices, large processed AnnData objects, and intermediate donor-level LIANA outputs are not bundled. To rerun the full analysis, obtain the GSE135779 source data, use the sample-mapping spreadsheet, and follow the input paths and preprocessing steps in notebooks 01A and 01D. The pipeline uses `GSE135779_RAW/`, `child_individual_h5ad/`, and `adult_individual_h5ad/` for local data. These directories are ignored by Git.
+In simpler terms, the analysis asked:
 
-## Analysis order
+> **Is the change in inferred immune-cell communication associated with SLE different in the pediatric cohort than in the adult cohort?**
 
-All active project code is in [`Notebooks/`](Notebooks/README.md). The `.ipynb` notebooks, `.py` analysis scripts, and shared helper modules are complementary parts of one workflow, not duplicate versions.
+---
 
-The original pipeline below recreates historical full-cluster-exclusion results. Complete scripts 13–17 afterward to reproduce the current primary analysis; run script 17 with `--publish` last to refresh manuscript figures and tables.
+## Analysis Workflow
 
-Run notebooks from `Notebooks/` with the project environment selected:
+The overall workflow was:
 
-1. `01A` through `01F`: preprocessing, cell annotation, and donor splitting.
-2. `02A` through `02D`: donor-level LIANA inference.
-3. `03A` and `03B`: clinical metadata and donor-level score extraction.
-4. `04A` through `04F`: secondary group comparisons.
-5. `05`: primary age-by-disease interaction models.
-6. `06A` and `06B`: disease-severity analyses.
-
-Run the following scripts from the repository root in this order:
-
-```powershell
-python Notebooks/07_GENERATE_BATCH_CHECK_FIGURES.py
-python Notebooks/08_PUBLICATION_SENSITIVITY_ANALYSES.py
-python Notebooks/09_GENERATE_MANUSCRIPT_SUMMARIES.py
-python Notebooks/12_GENERATE_SUBMISSION_AUDITS.py
-python Notebooks/10_GENERATE_MANUSCRIPT_UMAP.py
+```text
+GSE135779 scRNA-seq data
+        |
+        v
+Quality control
+        |
+        v
+Doublet detection with Scrublet
+        |
+        v
+Normalization and log transformation
+        |
+        v
+Highly variable gene selection
+        |
+        v
+PCA
+        |
+        v
+Harmony integration by donor
+        |
+        v
+Leiden clustering + UMAP
+        |
+        v
+Cell-type annotation
+        |
+        v
+Donor-level LIANA+ analysis
+        |
+        v
+Ligand-receptor communication scores
+        |
+        v
+Age-group x SLE statistical model
+        |
+        v
+Multiple-testing correction
+        |
+        v
+Sensitivity analyses
 ```
 
-Script 12 retains its original filename and generates clinical-covariate summaries, model donor coverage, and supporting exclusion records. It can run from the compact saved results without refitting models. Scripts requiring expression matrices or intermediate scores need the preceding analysis outputs. Rerunning scripts can replace their generated outputs.
+A major feature of the study is that **each donor, rather than each individual cell, was treated as the independent biological replicate**.
 
-Randomized steps use fixed seeds recorded in the code: 0 for preprocessing/QC, 42 for network layouts, and deterministic interaction-specific bootstrap seeds derived from 0.
+This avoids treating thousands of cells obtained from the same person as if they were thousands of independent patients.
 
-## Supplementary data
+---
 
-Under `Results/manuscript_tables/`:
+## Cell-Cell Communication Analysis
 
-- **S1:** `supplementary_adult_sample_exclusions.csv`.
-- **S2:** `supplementary_cell_type_coverage.csv`, with full donor-by-cell-type counts in `supplementary_donor_cell_type_coverage.csv`.
-- **S3:** `supplementary_all_fdr05_interactions.csv`, including contributing-donor counts for each group.
+Cell-cell communication was inferred using **LIANA+ consensus rank aggregation**.
 
-CSV files preserve statistical precision. Clinical source codes, including `ND`, are preserved; `ND` is not interpreted as absence of treatment. Recorded race and ethnicity are clinical categories, not genetic ancestry. These descriptive summaries do not adjust the primary model.
+LIANA+ uses known ligand-receptor relationships together with single-cell gene-expression data to identify potential communication between cell populations.
 
-## Annotation evidence and reproducibility limits
+Conceptually:
 
-`Results/qc/` contains cluster counts, donor-by-cluster counts, excluded-cell identifiers, full/top-20 marker rankings, and canonical-marker expression summaries. The recovered pre-exclusion objects reproduce the saved donor counts and retained-cell marker summaries. Source records and reconciliation results are in `Results/provenance/archived_annotation_audit.json`; source paths are relative to an external archive root.
-
-To repeat that check with the external archive available:
-
-```powershell
-python Notebooks/13_CHECK_ARCHIVED_ANNOTATION.py --archive-root "C:/path/to/GSE135779_transfer"
+```text
+Source cell
+    |
+    v
+Ligand
+    |
+    v
+Receptor
+    |
+    v
+Target cell
 ```
 
-This optional script requires pandas, numpy, and h5py. It expects the cohort AnnData files in the `child_individual_h5ad/` and `adult_individual_h5ad/` subdirectories and marker tables in their original notebook subdirectories under `Notebook_Outputs/`.
+LIANA+ inference was performed **separately for each donor**.
 
-Count reconciliation does not establish biological validity of the exclusions. The large excluded ribosomal clusters also contain substantial T-cell-marker expression; a completed restoration sensitivity and alternative-resource comparison are documented below. They preserve the broad non-classical-monocyte receiving pattern but change individual interaction results and do not validate blanket low-quality exclusions. Age cohort and technical batch are confounded, and inferred communication scores are relative ranks rather than direct measurements of signaling. A clean end-to-end reproduction of the current packaged code has not been independently verified.
+A cell type was included for a donor only when at least **10 cells** of that type were available.
 
-## Annotation and resource sensitivity analyses
+Ligand-receptor interactions were retained only when the ligand and receptor were detected in at least **10% of cells** in their respective source and target populations.
 
-See [the completed sensitivity report](Results/annotation_resource_sensitivity/README.md) for all four scenarios, restored-cell counts, resource-evidence checks, and interpretation limits. Original primary outputs are preserved.
+The LIANA+ magnitude rank was converted to:
 
-With the external archive and the CellTypist `Immune_All_Low.pkl` model available, run from the repository root:
-
-```powershell
-python Notebooks/14_ANNOTATION_RESOURCE_SENSITIVITY.py --archive-root "C:/path/to/GSE135779_transfer" --phase annotate --model "C:/path/to/Immune_All_Low.pkl"
-python Notebooks/14_ANNOTATION_RESOURCE_SENSITIVITY.py --archive-root "C:/path/to/GSE135779_transfer" --phase infer --magnitude-only
-python Notebooks/15_SUMMARIZE_ANNOTATION_RESOURCE_SENSITIVITY.py
+```text
+communication score = 1 - magnitude_rank
 ```
 
-Script 14 uses the cohort files documented for script 13. Cached predictions and donor scores are stored under ignored `_local_submission/sensitivity_cache/`; compact research outputs are saved under `Results/annotation_resource_sensitivity/`. Existing donor score files are skipped; changed inputs or settings require a fresh cache. The recorded magnitude-only equivalence check is explained in the sensitivity protocol. Script 15 requires the original saved model results and donor metadata and verifies baseline reproduction before exporting comparisons.
+so that larger values represented stronger inferred communication.
 
-## Current primary annotation revision
+---
 
-After the sensitivity workflow above:
+## Statistical Analysis
 
-```powershell
-python Notebooks/16_REVIEW_RESTORED_T_CELLS.py --archive-root "C:/path/to/GSE135779_transfer"
-python Notebooks/17_BUILD_REVISED_PRIMARY.py --archive-root "C:/path/to/GSE135779_transfer" --publish
+For each eligible ligand-receptor and source-target cell combination, the following donor-level model was fitted:
+
+```text
+communication score =
+    disease status
+    + age group
+    + disease status x age group
 ```
 
-Script 16 reviews cells without loading communication outcomes. Script 17 uses the reviewed restored annotation set as primary, refits primary and female-only models, checks selected HC3 fits independently, and regenerates figures and tables. The revision is retrospective. Exact labels, input hashes, remaining uncertainty, and publication-copy behavior are described in [the current primary package](Results/revised_primary/README.md).
+The interaction coefficient represented:
 
-## License
+```text
+(pediatric SLE - pediatric healthy)
+              -
+(adult SLE - adult healthy)
+```
 
-Code and project documentation are provided under the [MIT License](LICENSE). Third-party datasets and publications remain subject to their original terms.
+Only interactions with data from at least **5 donors in each of the four groups** were tested.
+
+The analysis used:
+
+- HC3 robust standard errors
+- 95% confidence intervals
+- Benjamini-Hochberg false discovery rate (FDR) correction
+
+The primary significance threshold was **FDR < 0.05**.
+
+---
+
+## Main Results
+
+The primary analysis tested **2,374 ligand-receptor/source-target combinations**.
+
+Of these:
+
+- **171 interactions had FDR < 0.05**
+- **239 interactions had FDR < 0.10**
+- **37** significant interactions had positive interaction coefficients
+- **134** had negative interaction coefficients
+
+These results indicate that SLE-associated changes in inferred immune-cell communication were not identical between the pediatric and adult cohorts.
+
+---
+
+## Non-Classical Monocytes Were Prominent
+
+One of the clearest overall patterns involved **non-classical monocytes**.
+
+Among the 171 significant interactions, non-classical monocytes were the receiving cell type in **57 interactions**, including:
+
+- **12** from CD4 T cells
+- **9** from CD8 T cells
+
+Classical monocytes were also frequent communication sources, contributing **27 significant interactions**, including 9 directed toward non-classical monocytes.
+
+These counts do **not** prove that non-classical monocytes are more active, more important, or causal in SLE. They show that monocyte-associated communication was prominent among the statistically significant differences identified in this analysis.
+
+---
+
+## Some Communication Patterns Changed in Opposite Directions
+
+The pediatric-adult differences were not caused by a simple overall increase or decrease in inferred communication.
+
+Several leading interactions changed in **opposite directions** between the pediatric and adult cohorts.
+
+Examples that increased with SLE in the pediatric cohort but decreased in the adult cohort included:
+
+- **TIMP2-ITGB1**
+- **CD48-CD244**
+- **SELPLG-ITGB2**
+
+Other interactions generally showed the opposite pattern, including:
+
+- **TGFB1-ITGB1**
+- **CD48-CD2**
+- **CD52-SIGLEC10**
+
+This suggests that pediatric and adult SLE may differ in the **pattern and direction** of specific inferred immune-cell communication changes rather than simply in the overall amount of communication.
+
+---
+
+## Sensitivity Analyses
+
+Several sensitivity analyses were performed to examine how robust the findings were to analytical choices.
+
+### Female-Only Analysis
+
+Because all analyzed adult donors were female while the pediatric cohort included four male donors, the primary analysis was repeated using only female donors.
+
+Results were highly similar to the primary analysis:
+
+**Pearson r = 0.995**
+
+The female-only analysis identified:
+
+- **145 interactions at FDR < 0.05**
+- **220 interactions at FDR < 0.10**
+- **141 of the 171** primary significant interactions remained significant
+
+This suggests that the overall coefficient pattern was not primarily driven by the sex imbalance between cohorts.
+
+### Cell-Type Annotation Sensitivity
+
+The revised primary annotation was compared with the original annotation that excluded the full T-rich clusters.
+
+The original-exclusion analysis identified:
+
+- **123 significant interactions**
+- **2,527 interactions tested**
+
+Across 2,371 tests shared between the two analyses:
+
+**Pearson r = 0.910**
+
+### Ligand-Receptor Resource Sensitivity
+
+The primary LIANA+ consensus resource was also compared with the CellPhoneDB resource bundled with LIANA.
+
+Using the revised annotations with CellPhoneDB:
+
+- **514 interactions were tested**
+- **29 met FDR < 0.05**
+
+For shared tests, coefficients correlated with the primary consensus analysis at:
+
+**Pearson r = 0.828**
+
+Importantly, **non-classical monocytes remained the most frequent significant receiving cell type** across the primary analysis and these sensitivity analyses.
+
+Individual ligand-receptor findings, however, depended more strongly on annotation and resource choices.
+
+---
+
+## How to Interpret the Findings
+
+This study uses computational inference.
+
+LIANA+ combines RNA-expression measurements with databases of known or proposed ligand-receptor relationships.
+
+Therefore, a significant interaction in this study means:
+
+> **The RNA-based inferred communication pattern differed in its SLE-associated change between the pediatric and adult cohorts.**
+
+It does **not** by itself demonstrate:
+
+- Physical communication between the cells
+- Ligand-receptor protein binding
+- Protein abundance
+- Downstream pathway activation
+- Causation
+- A validated drug target
+
+Protein-level studies, functional experiments, and independent cohorts would be needed to confirm the biological importance of individual interactions.
+
+---
+
+## Important Limitations
+
+### Sample Size
+
+Although almost 300,000 cells were analyzed, the biological sample consisted of **56 donors**, including only 12 adults.
+
+### Age and Technical Batch
+
+The pediatric and adult cohorts differed in technical batch, so biological age cannot be completely separated from other cohort differences.
+
+### Clinical Confounding
+
+Disease activity, medications, disease duration, ancestry, and clinical manifestations could not all be controlled.
+
+### Sex Imbalance
+
+All analyzed adults were female, although the female-only sensitivity analysis produced highly similar results.
+
+### Computational Inference
+
+LIANA+ predicts candidate communication patterns from RNA expression rather than directly measuring protein-level signaling.
+
+### Annotation and Database Uncertainty
+
+Individual results can depend on how cells are annotated and which ligand-receptor resource is used.
+
+### Peripheral Blood Only
+
+The analysis used PBMCs. Communication patterns within affected tissues such as the kidney or skin may differ from those observed in blood.
+
+---
+
+## Why This Study Matters
+
+Immune cells do not function independently. They communicate through signaling molecules, receptors, direct contact, and complex signaling networks.
+
+Understanding these communication networks may provide information that cannot be obtained by studying individual genes or cell types alone.
+
+This may be especially relevant as more treatments are designed to target specific immune cells, receptors, cytokines, and signaling pathways.
+
+The findings from this study suggest that some SLE-associated immune communication patterns may differ between pediatric and adult cohorts.
+
+However, the results should be considered **hypothesis-generating**. Further studies are needed to determine whether these communication differences are reproducible, biologically functional, related to disease severity or organ involvement, or relevant to treatment response.
+
+---
+
+## Data Availability
+
+The scRNA-seq data used in this study are publicly available through the NCBI Gene Expression Omnibus:
+
+**GSE135779**
+
+The study is a secondary analysis of deidentified, publicly available data.
+
+---
+
+## Software and Major Tools
+
+The analysis used tools including:
+
+- Python 3.12
+- Scanpy
+- AnnData
+- Scrublet
+- Harmony
+- Leiden clustering
+- UMAP
+- CellTypist
+- LIANA+
+- Python statistical analysis tools
+
+See the analysis scripts and environment files in this repository for the exact computational workflow and package versions.
+
+---
+
+## Reproducibility
+
+The repository contains the computational workflow used for:
+
+- Data preprocessing
+- Quality control
+- Doublet detection
+- Dimensionality reduction
+- Cell-type annotation
+- Annotation review
+- LIANA+ cell-cell communication inference
+- Donor-level statistical analysis
+- Sensitivity analyses
+- Table and figure generation
+
+Intermediate and final outputs are organized so that the major steps of the analysis can be inspected and reproduced.
+
+---
+
+## Citation
+
+If you use this repository or analysis, please cite the associated manuscript once publication information becomes available.
+
+**Choi A, Hatton C.**  
+*LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts.*
+
+---
+
+## Authors
+
+**Aaron Choi**  
+Northern Valley Regional High School at Old Tappan
+
+**Courtney Hatton**  
+UMass Chan School of Medicine
+
+---
+
+## Disclaimer
+
+This repository is provided for research and educational purposes.
+
+The cell-cell communication results are computational predictions based on RNA-expression data and ligand-receptor resources. They should not be interpreted as confirmed biological interactions, clinical biomarkers, or therapeutic recommendations.
