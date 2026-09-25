@@ -435,11 +435,3 @@ Northern Valley Regional High School at Old Tappan
 
 **Courtney Hatton**  
 UMass Chan School of Medicine
-
----
-
-## Disclaimer
-
-This repository is provided for research and educational purposes.
-
-The cell-cell communication results are computational predictions based on RNA-expression data and ligand-receptor resources. They should not be interpreted as confirmed biological interactions, clinical biomarkers, or therapeutic recommendations.
