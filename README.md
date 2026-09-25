@@ -423,8 +423,6 @@ Intermediate and final outputs are organized so that the major steps of the anal
 
 ## Citation
 
-If you use this repository or analysis, please cite the associated manuscript once publication information becomes available.
-
 **Choi A, Hatton C.**  
 *LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts.*
 
