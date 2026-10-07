@@ -1,0 +1,105 @@
+{
+  "old_vs_corrected": {
+    "tested": 2374,
+    "significant": 171,
+    "shared_tests": 2335,
+    "coefficient_r": 0.2798640480474941,
+    "primary_significant_testable": 220,
+    "both_significant": 116,
+    "both_significant_same_direction": 103,
+    "old_significant_retained": 116
+  },
+  "score_pearson_r": 0.5993000060318847,
+  "score_spearman_r": 0.6680640299287007,
+  "max_fresh_vs_cached_score_difference": 1.2843670937900953e-07,
+  "baseline": {
+    "tested": 2483,
+    "significant": 134,
+    "shared_tests": 2327,
+    "coefficient_r": 0.964009231881088,
+    "primary_significant_testable": 220,
+    "both_significant": 125,
+    "both_significant_same_direction": 125
+  },
+  "resource": {
+    "tested": 528,
+    "significant": 48,
+    "shared_tests": 328,
+    "coefficient_r": 0.9157928407787695,
+    "primary_significant_testable": 24,
+    "both_significant": 18,
+    "both_significant_same_direction": 18
+  },
+  "combined": {
+    "tested": 512,
+    "significant": 39,
+    "shared_tests": 329,
+    "coefficient_r": 0.9654691986722741,
+    "primary_significant_testable": 24,
+    "both_significant": 20,
+    "both_significant_same_direction": 20
+  },
+  "female": {
+    "tested": 2333,
+    "significant": 176,
+    "shared_tests": 2333,
+    "coefficient_r": 0.9941880034673373,
+    "primary_significant_testable": 220,
+    "both_significant": 172,
+    "both_significant_same_direction": 172
+  },
+  "submitted_overlap_count": 104,
+  "submitted_overlap_corrected_significant": 72,
+  "batch": {
+    "tested": 2335,
+    "significant": 65,
+    "shared_tests": 2335,
+    "coefficient_r": 0.9821860263055199,
+    "primary_significant_testable": 220,
+    "both_significant": 65,
+    "both_significant_same_direction": 65,
+    "nonestimable": 5
+  },
+  "table2_loo_direction_reversals": 0,
+  "return_all": {
+    "tested": 2374,
+    "significant": 29,
+    "shared_tests": 2335,
+    "coefficient_r": 0.1516324290619983,
+    "primary_significant_testable": 220,
+    "both_significant": 24,
+    "both_significant_same_direction": 24
+  },
+  "common_support": {
+    "tested": 6389,
+    "significant": 15,
+    "shared_tests": 1720,
+    "coefficient_r": 0.1476662184421046,
+    "primary_significant_testable": 197,
+    "both_significant": 7,
+    "both_significant_same_direction": 7,
+    "fixed_universe": 24120,
+    "cell_types": [
+      "B Cells",
+      "CD4 T Cells",
+      "CD8 T Cells",
+      "Classical Monocytes",
+      "NK Cells",
+      "Non-classical Monocytes"
+    ]
+  },
+  "detection": {
+    "tested": 897,
+    "significant": 0,
+    "constant_or_insufficient_support": 1477
+  },
+  "primary_tested": 2335,
+  "primary_significant": 220,
+  "primary_fdr10": 341,
+  "positive": 3,
+  "negative": 217,
+  "min_donors": 31,
+  "max_donors": 56,
+  "incomplete_tests": 1151,
+  "annotation_shared": 125
+}

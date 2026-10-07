@@ -1,0 +1,5 @@
+Source to target,Ligand-receptor,Coefficient,95% CI,FDR q
+Non-classical Monocytes to CD4 T Cells,SELPLG-ITGB2,-0.227,-0.330 to -0.125,0.0011421
+Non-classical Monocytes to CD4 T Cells,CD48-CD2,-0.059,-0.082 to -0.037,0.00019339
+B Cells to Non-classical Monocytes,CD52-SIGLEC10,-0.040,-0.059 to -0.021,0.0020407
+CD8 T Cells to Non-classical Monocytes,CD52-SIGLEC10,-0.049,-0.072 to -0.026,0.0017939

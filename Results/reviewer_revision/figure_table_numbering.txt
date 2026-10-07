@@ -1,0 +1,79 @@
+FIGURE AND TABLE NUMBERING
+
+The manuscript contains Figures 1-5 and main Tables 1-2; supporting data are numbered Supplemental Tables S1-S9. Supplemental Tables S1-S9 remain supporting data files rather than thousands of rows embedded in the manuscript. A combined numbered table may have panels stored in separate files. Existing scientific filenames are preserved to keep scripts and links working. Numerical values are unchanged.
+
+FIGURES
+
+Figure 1. Cell-type annotation of the pediatric and adult cohorts. Cohort-specific UMAP coordinates show the 298,610 retained cells. Coordinates were calculated before the targeted T-cell classification and were not refitted. Unresolved cells and red-blood-cell/platelet clusters are omitted. Panel A shows the pediatric cohort and panel B the adult cohort. Matching colors represent the same cell types. Cohorts were processed independently, so coordinates should be interpreted within each panel rather than as shared spatial coordinates. cDC, conventional dendritic cell; IFN, interferon; NK, natural killer; pDC, plasmacytoid dendritic cell; UMAP, uniform manifold approximation and projection.
+  Results/manuscript_figures/figure1_pediatric_adult_celltype_umap.png
+
+Figure 2. Primary cohort-by-SLE test. Red points meet FDR < 0.05; the dashed horizontal line marks that threshold. The volcano plot shows 2,335 estimable tests; 220 meet FDR < 0.05. The coefficient is (pediatric SLE - pediatric healthy) - (adult SLE - adult healthy), in relative rank-score units.
+  Results/manuscript_figures/figure2_primary_analysis.png
+  Vector version: Results/manuscript_figures/figure2_primary_analysis.svg
+
+Figure 3. All-donor versus female-only coefficient comparison, r=0.994. Blue points are significant in the primary analysis; gray points are the other shared tests. The dashed line marks equal coefficients. Coefficients are in relative rank-score units.
+  Results/manuscript_figures/figure3_female_only_comparison.png
+  Vector version: Results/manuscript_figures/figure3_female_only_comparison.svg
+
+Figure 4. Individual donor relative rank scores for the four illustrative combinations in Table 2. Each point is one contributing donor; horizontal bars show group means. Contributing donor scores are provided in Supplemental Table S9A, and group-specific counts appear in Table 2B.
+  Results/manuscript_figures/figure4_individual_donor_scores.png
+  Vector version: Results/manuscript_figures/figure4_individual_donor_scores.svg
+
+Figure 5. The four Table 2 combinations among pediatric SLE donors, separated by technical batch. Points represent donors and bars show batch means. Batch tests are provided in Supplemental Table S8C, with BH adjustment across the full seven-combination diagnostic family.
+  Results/manuscript_figures/figure5_pediatric_SLE_by_batch.png
+  Vector version: Results/manuscript_figures/figure5_pediatric_SLE_by_batch.svg
+
+TABLES
+
+Table 1. Characteristics of the analyzed donor cohorts.
+  Results/manuscript_tables/table1_cohort_characteristics.csv
+
+Table 2. Illustrative interaction combinations.
+  Panel A: Results/reviewer_revision/table2_panel_A.csv
+  Panel B: Results/reviewer_revision/table2_panel_B.csv
+
+Supplemental Table S1. Adult study records excluded before analysis and the reasons for exclusion.
+  Results/supplemental_tables/Table_S1.csv
+
+Supplemental Table S2. Retained cell-type coverage. Panel A: donor-level cell counts. Panel B: summarized coverage.
+  Panel A: Results/supplemental_tables/Table_S2A.csv
+  Panel B: Results/supplemental_tables/Table_S2B.csv
+
+Supplemental Table S3. Primary analysis results. Panel A: all 220 significant combinations. Panel B: all 2,335 estimable tests, including nonsignificant results.
+  Panel A: Results/supplemental_tables/Table_S3A.csv
+  Panel B: Results/supplemental_tables/Table_S3B.csv
+
+Supplemental Table S4. Annotation, resource, and female-only sensitivity comparisons. Panel A: combinations significant under both annotation approaches. Panels B-D: primary comparisons with full-cluster exclusion, the CellPhoneDB resource, and female-only estimates, respectively.
+  Panel A: Results/supplemental_tables/Table_S4A.csv
+  Panel B: Results/supplemental_tables/Table_S4B.csv
+  Panel C: Results/supplemental_tables/Table_S4C.csv
+  Panel D: Results/supplemental_tables/Table_S4D.csv
+
+Supplemental Table S5. Significant combinations and eligible tested denominators for each receiving cell type. Percentages are descriptive and are not enrichment tests.
+  Results/supplemental_tables/Table_S5.csv
+
+Supplemental Table S6. Donor-score availability. Panel A: per-group contributing counts and filter failures for all candidate combinations. Panel B: donor-level missingness reasons for primary-significant combinations and additional combinations audited for comparison. Panel C: complete donor-level audit of the 2,374 candidate combinations.
+  Panel A: Results/supplemental_tables/Table_S6A.csv
+  Panel B: Results/supplemental_tables/Table_S6B.csv.gz
+  Panel C: Results/supplemental_tables/Table_S6C.csv.gz
+
+Supplemental Table S7. Availability sensitivity analyses. Panel A: return-all models. Panel B: comparison with the primary analysis. Panel C: fixed common-support universe. Panel D: common-support models. Panel E: common-support comparison. Panel F: two-part detection and conditional-score results. Each model family has its own multiple-testing correction.
+  Panel A: Results/supplemental_tables/Table_S7A.csv
+  Panel B: Results/supplemental_tables/Table_S7B.csv
+  Panel C: Results/supplemental_tables/Table_S7C.csv
+  Panel D: Results/supplemental_tables/Table_S7D.csv
+  Panel E: Results/supplemental_tables/Table_S7E.csv
+  Panel F: Results/supplemental_tables/Table_S7F.csv
+
+Supplemental Table S8. Technical-batch checks. Panel A: group-by-batch donor counts. Panel B: batch-adjusted estimates and estimability diagnostics. Panel C: within-pediatric-SLE batch tests for the seven illustrative combinations. Panel D: comparison of primary and batch-adjusted estimates.
+  Panel A: Results/supplemental_tables/Table_S8A.csv
+  Panel B: Results/supplemental_tables/Table_S8B.csv
+  Panel C: Results/supplemental_tables/Table_S8C.csv
+  Panel D: Results/supplemental_tables/Table_S8D.csv
+
+Supplemental Table S9. Individual-donor scores and influence diagnostics for the seven illustrative combinations. Panel A: contributing donor scores. Panel B: leave-one-donor-out coefficients. These influence diagnostics are descriptive.
+  Panel A: Results/supplemental_tables/Table_S9A.csv
+  Panel B: Results/supplemental_tables/Table_S9B.csv
+
+Table 2 also has a native editable version: Results/reviewer_revision/table2_editable.html
+Large-font PNG (both panels, 600 dpi): Results/manuscript_tables/table2_interaction_estimates.png

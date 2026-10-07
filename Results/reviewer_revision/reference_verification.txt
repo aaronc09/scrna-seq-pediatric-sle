@@ -1,0 +1,90 @@
+Reference metadata and formatting review, 2026-10-06
+
+1. 10.1002/acr.24827
+   Verified against: Europe PMC/PubMed record
+
+2. 10.46497/ArchRheumatol.2022.8888
+   Verified against: Crossref and publisher article (https://archivesofrheumatology.org/index.php/pub/article/view/1267); PubMed 36017206. Publisher deposited full names as family names, so surname/initial formatting was corrected manually. Publication year uses the June 2022 issue, not December 2021 online-first date.
+
+3. 10.1177/09612033251314589
+   Verified against: Crossref publisher metadata
+
+4. 10.1038/s41590-020-0743-0
+   Verified against: Europe PMC/PubMed record
+
+5. 10.1080/08916934.2023.2281228
+   Verified against: Crossref publisher metadata
+
+6. 10.1126/science.abf1970
+   Verified against: Crossref publisher metadata
+
+7. 10.1136/lupus-2022-000799
+   Verified against: Crossref publisher metadata
+
+8. 10.1038/s41590-025-02297-2
+   Verified against: Europe PMC/PubMed record
+
+9. 10.1038/s41392-024-01888-z
+   Verified against: Crossref publisher metadata
+
+10. 10.1038/s41467-022-30755-0
+   Verified against: Crossref publisher metadata
+
+11. 10.1038/s41556-024-01469-w
+   Verified against: Europe PMC/PubMed record
+
+12. 10.3389/fped.2022.884634
+   Verified against: Crossref publisher metadata
+
+13. 10.1016/j.ard.2025.12.011
+   Verified against: Crossref publisher metadata
+
+14. 10.1186/s13059-017-1382-0
+   Verified against: Crossref publisher metadata
+
+15. 10.1016/j.cels.2018.11.005
+   Verified against: Europe PMC/PubMed record
+
+16. 10.1038/s41592-019-0619-0
+   Verified against: Europe PMC/PubMed record
+
+17. 10.1126/science.abl5197
+   Verified against: Europe PMC/PubMed record
+
+18. 10.1111/j.2517-6161.1995.tb02031.x
+   Verified against: Oxford issue listing and author institutional record
+
+19. 10.12688/wellcomeopenres.16883.2
+   Verified against: Crossref publisher metadata; original publication 2021, version 2 updated 12 May 2022
+
+20. 10.1093/rheumatology/keac698
+   Verified against: Europe PMC/PubMed record
+
+21. 10.1016/j.clim.2023.109765
+   Verified against: Europe PMC/PubMed record
+
+22. 10.1136/ard-2023-225433
+   Verified against: Crossref publisher metadata; pages verified against PubMed 38413168
+
+23. 10.1093/rheumatology/keaf231
+   Verified against: Crossref publisher metadata
+
+24. 10.3389/fimmu.2024.1457821
+   Verified against: Europe PMC/PubMed record
+
+25. 10.1016/j.autrev.2024.103692
+   Verified against: Europe PMC/PubMed record
+
+26. 10.1093/rheumatology/keae364
+   Verified against: Europe PMC/PubMed record
+
+27. 10.1038/s41598-022-14840-4
+   Verified against: Crossref publisher metadata
+
+28. 10.1172/jci.insight.156341
+   Verified against: Europe PMC/PubMed record
+
+29. 10.1126/scitranslmed.adl1666
+   Verified against: Europe PMC/PubMed record
+
+Uniform format: authors; title; full journal name; year; volume(issue); pages/article ID; DOI URL. All available authors retained. Publication titles preserve source wording, including Erythematous in reference 12. Reference 22 final pagination uses PubMed rather than incorrect Crossref 1-14 pagination. Reference 19 distinguishes 2021 original publication from 2022 version-2 update.

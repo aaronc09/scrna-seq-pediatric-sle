@@ -1,3 +1,6 @@
+<!-- reviewer-revision-2026-10-06 -->
+**Historical rank-score analysis:** LIANA magnitude-based models here are superseded by [the corrected reviewer revision](../reviewer_revision/README.txt). Cell labels, QC counts, and UMAP inputs remain current. The original description below is preserved for traceability.
+
 # Current primary analysis
 
 This folder is the authoritative numerical source for the revised root manuscript. It uses the reviewed conservative T-cell restoration and LIANA 1.8.1 consensus resource. Original full-cluster exclusions are now a sensitivity comparison. This is a retrospective annotation revision, not a preregistered or externally validated annotation.
@@ -26,8 +29,8 @@ The [annotation review](../annotation_review/README.md) explains the supporting 
 - `*_primary_cell_labels.csv.gz`: exact cell identifiers, original and revised labels, restoration flag, and inclusion status.
 - `qc/annotation_accounting.csv`: complete donor-level post-QC, restoration, exclusion, and retention accounting.
 - `sensitivity_summary.csv` and `*_comparison.csv`: comparisons using revised-primary denominators. These differ from the historical original-relative comparisons under `annotation_resource_sensitivity/`.
-- `../manuscript_tables/`: the single current set of main tables and supplementary data. The original seven Table 2 example combinations were retained and all remain significant; examples were not replaced to maximize significance.
-- `../manuscript_figures/`: the single current research figure set, Figures 1–3 as PNG and JPEG, each exported at 600 DPI. Figure 1 uses archived pre-exclusion UMAP coordinates and revised labels, without fitting a new embedding.
+- `../manuscript_tables/`: unchanged Table 1 and cohort/coverage supporting tables. Superseded presentation tables were removed; corrected Table 2 and statistical tables are in `../reviewer_revision/`.
+- `../manuscript_figures/`: current Figure 1 (PNG/JPEG). Corrected Figures 2?5 are also in `../manuscript_figures/`; older figure exports were removed.
 - `summary.json`, `provenance.json`, `input_sha256.json`: machine-readable results, methods, and frozen input hashes.
 - `independent_HC3_verification.csv`: selected primary and female-only fits checked against statsmodels formula-based HC3 estimates. Full primary coefficients and q values also reproduce the previously completed annotation scenario.
 
@@ -48,4 +51,4 @@ Script 17 writes this versioned package. `--publish` refreshes visible copies in
 
 After publishing, script 17 removes the verified duplicate figure/table staging folders from this directory and combines numbered historical run manifests in `Results/provenance/run_manifests.json`. Model outputs and original biological results are unchanged. A build without `--publish` retains staging folders until publication. The recorded generation-script hash describes the code used for the original numerical run; later housekeeping changes do not constitute a new scientific run.
 
-Original model/QC outputs under `Results/severity_analysis/`, `Results/sensitivity_analysis/`, and `Results/qc/` are preserved as historical inputs and comparison evidence. Do not use their original-primary counts for the revised manuscript. Older plotting scripts can regenerate old presentations; run script 17 with `--publish` last when rebuilding the current package.
+Original model/QC outputs under `Results/severity_analysis/`, `Results/sensitivity_analysis/`, and `Results/qc/` are preserved as historical inputs and comparison evidence. Do not use their original-primary counts for the revised manuscript. Older plotting scripts can regenerate old presentations; finish with scripts 18?19 for the corrected statistical results and figures; script 17 alone produces historical scores.

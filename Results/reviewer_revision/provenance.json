@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-06",
+  "patch": "Process-local unique-score ranking; no package files changed",
+  "upstream_changelog": "https://github.com/scverse/liana-py/blob/main/CHANGELOG.md",
+  "old_results_preserved": true,
+  "primary": "Fresh inference from archived normalized log-transformed X",
+  "other_scenarios": "Corrected aggregation of unchanged cached per-method scores",
+  "sha256": {
+    "_aggregate.py": "7e7fa25f940e1862db2082ad79a81ccadfa64ad317fe9fb05d928b52c9c7984b",
+    "18_REVIEWER_REVISION.py": "5bfa1024b59822a167dcab657d2adfbc579e93015a54b1fe21c198e7259df153",
+    "19_SUMMARIZE_REVIEWER_REVISION.py": "e0d850a20f3237693e0b74e6a38c873d57312e229bd1d0463277d62d2caf1f5f",
+    "consensus_resource.csv": "9a9f14b8e2120166212c313eb149e101873bead3fb59d530201abf89f84e2f9a",
+    "cellphonedb_resource.csv": "8af9a57c8864345f83cf7f092a98a8c570c8f296d5be0342e0944330ffae089c",
+    "child_primary_cell_labels.csv.gz": "989e6cee8f608755c21009594355cfc35ad7b40a2783f0bc259e31518970caf1",
+    "adult_primary_cell_labels.csv.gz": "5fa2d3f8a335b68ea6ade759bdf9f669c5fb515dd6693147ccedd7631d493b25"
+  }
+}

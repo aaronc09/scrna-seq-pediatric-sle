@@ -50,6 +50,8 @@ kiwisolver==1.5.0
 lazy-loader==0.5
 legacy-api-wrap==1.5
 leidenalg==0.12.0
+# LIANA ranking correction: run Notebooks/18_REVIEWER_REVISION.py before stage 19.
+# Unpatched earlier stages reproduce historical rank-score results.
 liana==1.8.1
 llvmlite==0.49.0
 MarkupSafe==3.0.3

@@ -1,0 +1,5 @@
+Source to target,Ligand-receptor,Pediatric healthy,Pediatric SLE,Adult healthy,Adult SLE
+Non-classical Monocytes to CD4 T Cells,SELPLG-ITGB2,0.764 (n=11),0.663 (n=33),0.640 (n=5),0.767 (n=7)
+Non-classical Monocytes to CD4 T Cells,CD48-CD2,0.973 (n=11),0.927 (n=33),0.962 (n=5),0.975 (n=7)
+B Cells to Non-classical Monocytes,CD52-SIGLEC10,0.996 (n=11),0.960 (n=32),0.990 (n=5),0.994 (n=7)
+CD8 T Cells to Non-classical Monocytes,CD52-SIGLEC10,0.991 (n=11),0.950 (n=32),0.979 (n=5),0.987 (n=7)

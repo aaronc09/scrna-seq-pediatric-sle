@@ -1,0 +1,7 @@
+Independent-cohort check (2026-10-06)
+No independent cohort was analyzed in this revision. A targeted search did not establish a dataset with all four required donor groups and balanced technical batches.
+GSE135779 is the source dataset, not independent validation: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135779
+Wang et al. reuses GSE135779 with GSE142016; it does not provide independent pediatric replication of the present comparison: https://www.tandfonline.com/doi/pdf/10.1080/08916934.2023.2281228
+GSE162577 contains only two SLE donors and one healthy donor: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162577
+GSE224198 is a small vaccination study (four SLE and two controls), not a balanced four-group age-by-disease replication: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224198
+This was a targeted search, not proof that no suitable cohort exists. Accordingly, use the reviewer's alternative: explicitly exploratory title, abstract, and conclusion, with technical batch as a possible explanation.

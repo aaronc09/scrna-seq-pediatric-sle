@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "date": "2026-10-06",
+  "primary_tested": 2335,
+  "primary_significant": 220,
+  "old_significant_retained": 116,
+  "fresh_donors_verified": 56,
+  "availability_rows": 132944,
+  "table2_rows": 7,
+  "table2_significant_after_correction": 4,
+  "table2_direction_reversals_after_correction": 3,
+  "cell_labels_unchanged": {
+    "child": 233770,
+    "adult": 64840
+  },
+  "common_support_complete_donors": 56,
+  "independent_HC3_checks": 12,
+  "references_verified_and_cited": 29,
+  "abstract_words": 225,
+  "figure_visual_check": "Four PNGs inspected; axes, labels, and points readable",
+  "table2_native_tables": 2
+}

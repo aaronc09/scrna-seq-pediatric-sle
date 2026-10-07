@@ -1,3 +1,6 @@
+<!-- reviewer-revision-2026-10-06 -->
+The current workflow now ends with **18_REVIEWER_REVISION.py** (isolated LIANA rank correction and fresh inference) and **19_SUMMARIZE_REVIEWER_REVISION.py** (corrected models and reviewer sensitivities). See [the revised output guide](../Results/reviewer_revision/README.txt) for prerequisites and commands. The script-17 publication workflow described below is historical and must be followed by stages 18–19 for corrected rank-based outputs.
+
 # One project code set
 
 This is the sole active project-code directory. Notebook files (`.ipynb`) and Python scripts (`.py`) implement different stages of the same research workflow. They are not duplicate implementations to choose between.
@@ -14,13 +17,15 @@ This is the sole active project-code directory. Notebook files (`.ipynb`) and Py
 
 Follow the root README for prerequisites and run order. Historical original-exclusion stages are retained because they establish comparison results and support reproducibility. They are not a second current primary analysis.
 
-The current publication workflow ends with:
+The historical stage-17 workflow is:
 
 ```powershell
 python Notebooks/16_REVIEW_RESTORED_T_CELLS.py --archive-root "C:/path/to/GSE135779_transfer"
 python Notebooks/17_BUILD_REVISED_PRIMARY.py --archive-root "C:/path/to/GSE135779_transfer" --publish
 ```
 
-Run script 17 with `--publish` after historical export scripts to ensure the visible figures and tables use the revised primary analysis. See `Results/revised_primary/README.md` for output locations and prerequisites.
+Stage 17 with `--publish` produces the earlier annotation-revised outputs; it must be followed by stages 18-19 for the corrected primary analysis. See `Results/revised_primary/README.md` for output locations and prerequisites.
 
-There is deliberately no active script 11: its obsolete submission exporter contained original-analysis values and was removed. Use script 17 for current figure/table exports. Local package dependencies under `_local_submission/sensitivity_cache/python_packages/` are third-party libraries, not another set of project code.
+There is deliberately no active script 11: its obsolete submission exporter contained original-analysis values and was removed. Use stages 18-19 for corrected figure/table exports. Local package dependencies under `_local_submission/sensitivity_cache/python_packages/` are third-party libraries, not another set of project code.
+
+Current Table 2 PNG can be regenerated with `python Notebooks/render_table2_png.py`. Numbered supplemental files are packaged by `Notebooks/package_supplemental_tables.py`.
