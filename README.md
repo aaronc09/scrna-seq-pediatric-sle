@@ -7,7 +7,7 @@ This repository contains the code and supporting materials for the study:
 **“LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts.”**
 
 **Author:** Aaron Choi  
-**Research Mentor:** Courtney Hatton, University of Massachusetts Chan Medical School
+**Research Mentor:** Courtney Hatton, PhD Student, University of Massachusetts Chan Medical School
 
 This study reanalyzed publicly available single-cell RNA-sequencing (scRNA-seq) data to investigate differences in systemic lupus erythematosus (SLE)-associated immune-cell communication between pediatric and adult cohorts.
 
@@ -166,4 +166,4 @@ Northern Valley Regional High School at Old Tappan
 ## Research Mentor
 
 **Courtney Hatton**  
-University of Massachusetts Chan Medical School
+PhD Student, University of Massachusetts Chan Medical School
