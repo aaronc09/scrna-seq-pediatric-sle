@@ -2,18 +2,35 @@
 
 ## Overview
 
-This repository contains the code and supporting materials for the study:
+This repository contains the code and supporting materials for the published research study:
 
 **“LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts.”**
 
-**Author:** Aaron Choi  
+**Author:** Aaron Choi
 **Research Mentor:** Courtney Hatton, PhD Student, University of Massachusetts Chan Medical School
+
+**Journal:** National High School Journal of Science (NHSJS)
+**Publication Date:** October 28, 2026
+**Published Article:** [Read the published paper](https://nhsjs.com/2026/liana-inferred-cell-cell-interaction-analysis-reveals-differences-in-sle-associated-immune-cell-communication-between-pediatric-and-adult-cohorts/)
 
 This study reanalyzed publicly available single-cell RNA-sequencing (scRNA-seq) data to investigate differences in systemic lupus erythematosus (SLE)-associated immune-cell communication between pediatric and adult cohorts.
 
+## Publication
+
+This research was published in the **National High School Journal of Science (NHSJS)** on **October 28, 2026**.
+
+**Published Manuscript:**
+[LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts](https://nhsjs.com/2026/liana-inferred-cell-cell-interaction-analysis-reveals-differences-in-sle-associated-immune-cell-communication-between-pediatric-and-adult-cohorts/)
+
+The published manuscript presents the study's methodology, results, sensitivity analyses, discussion, limitations, and conclusions.
+
+The code and supplemental materials in this repository support the reproducibility and transparency of the published research.
+
 ## Purpose
 
-The purpose of this study was to investigate whether SLE-associated changes in immune-cell communication differ between pediatric and adult patients. Using publicly available single-cell RNA-sequencing data, we compared inferred cell-cell communication patterns between SLE and healthy donors in pediatric and adult cohorts.
+The purpose of this study was to investigate whether SLE-associated changes in immune-cell communication differ between pediatric and adult patients.
+
+Using publicly available single-cell RNA-sequencing data, we compared inferred cell-cell communication patterns between SLE and healthy donors in pediatric and adult cohorts.
 
 The primary comparison was:
 
@@ -27,7 +44,9 @@ The analysis identified **220 ligand-receptor and cell-type combinations** in wh
 
 Non-classical monocytes were the most frequently represented receiving cell type among the significant results, appearing in **85 of 530 eligible combinations (16.0%)**.
 
-Sensitivity analyses showed that some findings depended on analytical choices and technical batch. Therefore, the results are best viewed as exploratory findings that identify candidate immune-cell communication patterns for future validation rather than established age-specific biological mechanisms.
+Sensitivity analyses showed that some findings depended on analytical choices and technical batch.
+
+Therefore, the results are best viewed as exploratory findings that identify candidate immune-cell communication patterns for future validation rather than established age-specific biological mechanisms.
 
 ## Dataset
 
@@ -37,12 +56,12 @@ The analysis used publicly available peripheral blood mononuclear cell (PBMC) si
 
 The final analysis included:
 
-- **56 donors**
-- 33 pediatric SLE donors
-- 11 pediatric healthy donors
-- 7 adult SLE donors
-- 5 adult healthy donors
-- **298,610 retained cells**
+* **56 donors**
+* 33 pediatric SLE donors
+* 11 pediatric healthy donors
+* 7 adult SLE donors
+* 5 adult healthy donors
+* **298,610 retained cells**
 
 No new patient data were collected for this study.
 
@@ -50,17 +69,17 @@ No new patient data were collected for this study.
 
 The workflow included:
 
-- Single-cell quality control and preprocessing with Scanpy
-- Doublet detection with Scrublet
-- Donor-aware integration with Harmony
-- Leiden clustering and immune-cell annotation
-- CellTypist-supported annotation review
-- Donor-level cell-cell communication inference using LIANA+
-- Ligand-receptor interaction analysis using a consensus resource
-- Disease-by-cohort interaction modeling
-- HC3 heteroskedasticity-robust standard errors
-- Benjamini-Hochberg false discovery rate correction
-- Multiple sensitivity and robustness analyses
+* Single-cell quality control and preprocessing with Scanpy
+* Doublet detection with Scrublet
+* Donor-aware integration with Harmony
+* Leiden clustering and immune-cell annotation
+* CellTypist-supported annotation review
+* Donor-level cell-cell communication inference using LIANA+
+* Ligand-receptor interaction analysis using a consensus resource
+* Disease-by-cohort interaction modeling
+* HC3 heteroskedasticity-robust standard errors
+* Benjamini-Hochberg false discovery rate correction
+* Multiple sensitivity and robustness analyses
 
 The **donor**, rather than the individual cell, was treated as the independent biological replicate.
 
@@ -70,21 +89,23 @@ Among **2,335 estimable ligand-receptor and sending-receiving cell-type combinat
 
 Of these:
 
-- 3 interaction coefficients were positive
-- 217 interaction coefficients were negative
-- Non-classical monocytes were the receiving cell type in 85 of 530 eligible combinations (16.0%)
+* 3 interaction coefficients were positive
+* 217 interaction coefficients were negative
+* Non-classical monocytes were the receiving cell type in 85 of 530 eligible combinations (16.0%)
 
 Sensitivity and robustness analyses evaluated:
 
-- Female-only donors
-- Alternative cell-annotation choices
-- Alternative ligand-receptor resources
-- Communication-score availability
-- Low-expression interactions
-- Donor influence
-- Technical batch effects
+* Female-only donors
+* Alternative cell-annotation choices
+* Alternative ligand-receptor resources
+* Communication-score availability
+* Low-expression interactions
+* Donor influence
+* Technical batch effects
 
-The findings showed sensitivity to several analytical choices. Technical batch was also substantially imbalanced across the pediatric and adult cohorts. These limitations prevent attributing the observed differences specifically to biological age.
+The findings showed sensitivity to several analytical choices.
+
+Technical batch was also substantially imbalanced across the pediatric and adult cohorts. These limitations prevent attributing the observed differences specifically to biological age.
 
 ## Repository Contents
 
@@ -108,21 +129,21 @@ The primary analysis was performed in **Python 3.12.10**.
 
 Major packages included:
 
-- Scanpy 1.12.3
-- AnnData 0.13.2
-- LIANA 1.8.1
-- CellTypist 1.7.1
-- Scrublet 0.2.3
-- harmonypy 0.0.10
-- leidenalg 0.12.0
-- igraph 1.0.0
-- umap-learn 0.5.12
-- NumPy 2.5.2
-- pandas 2.3.3
-- SciPy 1.18.0
-- statsmodels 0.14.6
+* Scanpy 1.12.3
+* AnnData 0.13.2
+* LIANA 1.8.1
+* CellTypist 1.7.1
+* Scrublet 0.2.3
+* harmonypy 0.0.10
+* leidenalg 0.12.0
+* igraph 1.0.0
+* umap-learn 0.5.12
+* NumPy 2.5.2
+* pandas 2.3.3
+* SciPy 1.18.0
+* statsmodels 0.14.6
 
-LIANA 1.8.1 was used with the documented process-local correction to the `magnitude_rank` score-column ranking described in the manuscript and analysis code.
+LIANA 1.8.1 was used with the documented process-local correction to the `magnitude_rank` score-column ranking described in the published manuscript and analysis code.
 
 ## Data Availability
 
@@ -134,13 +155,15 @@ Supplemental tables containing the complete primary and sensitivity-analysis res
 
 ## Interpretation and Limitations
 
-LIANA+ infers potential cell-cell communication from RNA expression and ligand-receptor resources. These predictions do not directly measure:
+LIANA+ infers potential cell-cell communication from RNA expression and ligand-receptor resources.
 
-- Protein abundance
-- Ligand-receptor binding
-- Physical cell-cell contact
-- Pathway activation
-- Absolute signaling intensity
+These predictions do not directly measure:
+
+* Protein abundance
+* Ligand-receptor binding
+* Physical cell-cell contact
+* Pathway activation
+* Absolute signaling intensity
 
 This study uses a single cross-sectional blood dataset and does not include an independent replication cohort.
 
@@ -152,18 +175,6 @@ Independent, technically balanced cohorts and protein-level and functional valid
 
 ## Citation
 
-If you use the code or results from this repository, please cite the associated manuscript:
+If you use the code or results from this repository, please cite the published manuscript:
 
-**Choi A. LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts.**
-
-Publication information and DOI will be added when available.
-
-## Author
-
-**Aaron Choi**  
-Northern Valley Regional High School at Old Tappan
-
-## Research Mentor
-
-**Courtney Hatton**  
-PhD Student, University of Massachusetts Chan Medical School
+Choi, A. (2026). LIANA+ inferred cell-cell interaction analysis reveals differences in SLE-associated immune cell communication between pediatric and adult cohorts. *National High School Journal of Sc*
