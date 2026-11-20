@@ -175,6 +175,4 @@ Independent, technically balanced cohorts and protein-level and functional valid
 
 ## Citation
 
-If you use the code or results from this repository, please cite the published manuscript:
-
 Choi, A. (2026). LIANA+ inferred cell-cell interaction analysis reveals differences in SLE-associated immune cell communication between pediatric and adult cohorts. *National High School Journal of Sc*
