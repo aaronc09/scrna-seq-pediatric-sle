@@ -1,5 +1,9 @@
 # LIANA+ Inferred Cell-Cell Interaction Analysis Reveals Differences in SLE-Associated Immune Cell Communication Between Pediatric and Adult Cohorts
 
+## Purpose
+
+Pediatric SLE treatment strategies are often extrapolated from adult studies. Therefore, investigating potential differences in immune-cell communication between pediatric and adult patients may help guide future research into pediatric-specific therapeutic approaches, particularly for patients who respond inadequately or are resistant to existing treatments. 
+
 ## Overview
 
 This repository contains the code and supporting materials for the published research study:
